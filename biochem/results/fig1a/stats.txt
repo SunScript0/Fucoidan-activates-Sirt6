@@ -1,0 +1,23 @@
+=== Comparing intensity directly ===
+# A tibble: 7 × 7
+  .y.       group1 group2            p p.format p.signif method
+  <chr>     <chr>  <chr>         <dbl> <chr>    <chr>    <chr> 
+1 Intensity H2O    Fucoidan    0.00543 0.0054   **       T-test
+2 Intensity DMSO   Resveratrol 0.0229  0.0229   *        T-test
+3 Intensity DMSO   Gal-Gal     0.0189  0.0189   *        T-test
+4 Intensity DMSO   Quercetin   0.0276  0.0276   *        T-test
+5 Intensity DMSO   Cyanidine   0.0135  0.0135   *        T-test
+6 Intensity DMSO   MDL-800     0.182   0.1824   ns       T-test
+7 Intensity DMSO   MDL-801     0.0147  0.0147   *        T-test
+
+=== Comparing intensity normalized by coomassie ===
+# A tibble: 7 × 7
+  .y.   group1 group2            p p.format p.signif method
+  <chr> <chr>  <chr>         <dbl> <chr>    <chr>    <chr> 
+1 Norm1 H2O    Fucoidan    0.00197 0.00197  **       T-test
+2 Norm1 DMSO   Resveratrol 0.00385 0.00385  **       T-test
+3 Norm1 DMSO   Gal-Gal     0.00486 0.00486  **       T-test
+4 Norm1 DMSO   Quercetin   0.00392 0.00392  **       T-test
+5 Norm1 DMSO   Cyanidine   0.00112 0.00112  **       T-test
+6 Norm1 DMSO   MDL-800     0.201   0.20081  ns       T-test
+7 Norm1 DMSO   MDL-801     0.00417 0.00417  **       T-test

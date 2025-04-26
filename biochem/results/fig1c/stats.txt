@@ -1,0 +1,65 @@
+=== Comparing intensity directly ===
+# A tibble: 28 × 7
+   .y.       group1                 group2                        p p.format p.signif method
+   <chr>     <chr>                  <chr>                     <dbl> <chr>    <chr>    <chr> 
+ 1 Intensity Control                L-Fucose               1.00     0.99987  ns       T-test
+ 2 Intensity Control                F-vesiculosus-purified 0.00139  0.00139  **       T-test
+ 3 Intensity Control                F-vesiculosus-crude    0.00761  0.00761  **       T-test
+ 4 Intensity Control                M-pyrifera             0.0584   0.05838  ns       T-test
+ 5 Intensity Control                U-pinnatifida          0.0161   0.01612  *        T-test
+ 6 Intensity Control                DNA-Fucoidan           0.0277   0.02766  *        T-test
+ 7 Intensity Control                C-okamuranus           0.0163   0.01628  *        T-test
+ 8 Intensity L-Fucose               F-vesiculosus-purified 0.000419 0.00042  ***      T-test
+ 9 Intensity L-Fucose               F-vesiculosus-crude    0.00676  0.00676  **       T-test
+10 Intensity L-Fucose               M-pyrifera             0.0492   0.04917  *        T-test
+11 Intensity L-Fucose               U-pinnatifida          0.0122   0.01219  *        T-test
+12 Intensity L-Fucose               DNA-Fucoidan           0.0229   0.02289  *        T-test
+13 Intensity L-Fucose               C-okamuranus           0.0105   0.01048  *        T-test
+14 Intensity F-vesiculosus-purified F-vesiculosus-crude    0.000160 0.00016  ***      T-test
+15 Intensity F-vesiculosus-purified M-pyrifera             0.00103  0.00103  **       T-test
+16 Intensity F-vesiculosus-purified U-pinnatifida          0.131    0.13067  ns       T-test
+17 Intensity F-vesiculosus-purified DNA-Fucoidan           0.0656   0.06557  ns       T-test
+18 Intensity F-vesiculosus-purified C-okamuranus           0.00508  0.00508  **       T-test
+19 Intensity F-vesiculosus-crude    M-pyrifera             0.00571  0.00571  **       T-test
+20 Intensity F-vesiculosus-crude    U-pinnatifida          0.00553  0.00553  **       T-test
+21 Intensity F-vesiculosus-crude    DNA-Fucoidan           0.00976  0.00976  **       T-test
+22 Intensity F-vesiculosus-crude    C-okamuranus           0.00265  0.00265  **       T-test
+23 Intensity M-pyrifera             U-pinnatifida          0.0202   0.02020  *        T-test
+24 Intensity M-pyrifera             DNA-Fucoidan           0.0522   0.05222  ns       T-test
+25 Intensity M-pyrifera             C-okamuranus           0.0747   0.07465  ns       T-test
+26 Intensity U-pinnatifida          DNA-Fucoidan           0.484    0.48423  ns       T-test
+27 Intensity U-pinnatifida          C-okamuranus           0.0980   0.09797  ns       T-test
+28 Intensity DNA-Fucoidan           C-okamuranus           0.298    0.29842  ns       T-test
+
+=== Comparing intensity normalized by coomassie ===
+# A tibble: 28 × 7
+   .y.   group1                 group2                        p p.format p.signif method
+   <chr> <chr>                  <chr>                     <dbl> <chr>    <chr>    <chr> 
+ 1 Norm1 Control                L-Fucose               0.538    0.53773  ns       T-test
+ 2 Norm1 Control                F-vesiculosus-purified 0.00306  0.00306  **       T-test
+ 3 Norm1 Control                F-vesiculosus-crude    0.0328   0.03278  *        T-test
+ 4 Norm1 Control                M-pyrifera             0.101    0.10150  ns       T-test
+ 5 Norm1 Control                U-pinnatifida          0.00908  0.00908  **       T-test
+ 6 Norm1 Control                DNA-Fucoidan           0.00260  0.00260  **       T-test
+ 7 Norm1 Control                C-okamuranus           0.0253   0.02526  *        T-test
+ 8 Norm1 L-Fucose               F-vesiculosus-purified 0.00359  0.00359  **       T-test
+ 9 Norm1 L-Fucose               F-vesiculosus-crude    0.0506   0.05064  ns       T-test
+10 Norm1 L-Fucose               M-pyrifera             0.0931   0.09307  ns       T-test
+11 Norm1 L-Fucose               U-pinnatifida          0.00933  0.00933  **       T-test
+12 Norm1 L-Fucose               DNA-Fucoidan           0.00334  0.00334  **       T-test
+13 Norm1 L-Fucose               C-okamuranus           0.0250   0.02505  *        T-test
+14 Norm1 F-vesiculosus-purified F-vesiculosus-crude    0.00114  0.00114  **       T-test
+15 Norm1 F-vesiculosus-purified M-pyrifera             0.0124   0.01236  *        T-test
+16 Norm1 F-vesiculosus-purified U-pinnatifida          0.233    0.23323  ns       T-test
+17 Norm1 F-vesiculosus-purified DNA-Fucoidan           0.00713  0.00713  **       T-test
+18 Norm1 F-vesiculosus-purified C-okamuranus           0.00990  0.00990  **       T-test
+19 Norm1 F-vesiculosus-crude    M-pyrifera             0.0471   0.04712  *        T-test
+20 Norm1 F-vesiculosus-crude    U-pinnatifida          0.00579  0.00579  **       T-test
+21 Norm1 F-vesiculosus-crude    DNA-Fucoidan           0.000561 0.00056  ***      T-test
+22 Norm1 F-vesiculosus-crude    C-okamuranus           0.0105   0.01049  *        T-test
+23 Norm1 M-pyrifera             U-pinnatifida          0.00690  0.00690  **       T-test
+24 Norm1 M-pyrifera             DNA-Fucoidan           0.334    0.33425  ns       T-test
+25 Norm1 M-pyrifera             C-okamuranus           0.388    0.38841  ns       T-test
+26 Norm1 U-pinnatifida          DNA-Fucoidan           0.0191   0.01911  *        T-test
+27 Norm1 U-pinnatifida          C-okamuranus           0.0115   0.01146  *        T-test
+28 Norm1 DNA-Fucoidan           C-okamuranus           0.951    0.95063  ns       T-test

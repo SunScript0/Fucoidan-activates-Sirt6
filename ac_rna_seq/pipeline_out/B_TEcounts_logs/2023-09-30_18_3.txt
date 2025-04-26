@@ -1,0 +1,163 @@
+File: /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/04_mapped/18_3_Aligned.sortedByCoord.out.bam
+Name: 18_3
+Genes GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf
+Repeats GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf
+Sat Sep 30 16:53:14 EDT 2023
+INFO  @ Sat, 30 Sep 2023 16:53:14: 
+# ARGUMENTS LIST:
+# name = 18_3
+# BAM file = /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/04_mapped/18_3_Aligned.sortedByCoord.out.bam
+# GTF file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf 
+# TE file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf 
+# multi-mapper mode = multi 
+# stranded = no 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Sat, 30 Sep 2023 16:53:14: Processing GTF files ... 
+ 
+INFO  @ Sat, 30 Sep 2023 16:53:14: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+INFO  @ Sat, 30 Sep 2023 17:00:47: Done building gene index ...... 
+ 
+INFO  @ Sat, 30 Sep 2023 17:01:10: Building TE index ....... 
+ 
+INFO  @ Sat, 30 Sep 2023 17:04:19: Done building TE index ...... 
+ 
+INFO  @ Sat, 30 Sep 2023 17:04:19: 
+Reading sample file ... 
+ 
+[E::idx_find_and_load] Could not retrieve index file for '.1696107859.4620903.bam'
+uniq te counts = 6626521 
+.......start iterative optimization .......... 
+multi-reads = 229595 total means = 1202
+after normalization total means0 = 1.000000000000018
+SQUAREM iteraton [1]
+1/3
+num of multi reads = 229595
+total multi counts = 200117
+total multi counts = 200117
+total means = 1814
+after normalization total means = 0.9999999999999657
+2/3
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2049
+after normalization total means = 0.9999999999999933
+alpha = 1.0, SQUAREM iteraton [2]
+1/3
+num of multi reads = 229595
+total multi counts = 200117
+total multi counts = 200117
+total means = 2116
+after normalization total means = 0.9999999999999788
+2/3
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2139
+after normalization total means = 0.9999999999999938
+alpha = 1.2604307529368073.
+ Performing a stabilization step.
+num of multi reads = 229595
+total multi counts = 200117
+total multi counts = 200117
+total means = 2155
+after normalization total means = 1.000000000000004
+alpha = 1.2604307529368073, SQUAREM iteraton [3]
+1/3
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2159
+after normalization total means = 0.9999999999999962
+2/3
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2162
+after normalization total means = 1.000000000000003
+alpha = 2.2484753101751886.
+ Performing a stabilization step.
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2167
+after normalization total means = 0.9999999999999831
+alpha = 2.2484753101751886, SQUAREM iteraton [4]
+1/3
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2168
+after normalization total means = 1.0000000000000195
+2/3
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2168
+after normalization total means = 1.0000000000000129
+alpha = 3.0758833007117676.
+ Performing a stabilization step.
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2169
+after normalization total means = 1.0000000000000062
+alpha = 3.0758833007117676, SQUAREM iteraton [5]
+1/3
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2169
+after normalization total means = 1.0000000000000289
+2/3
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2169
+after normalization total means = 1.0000000000000315
+alpha = 4.0.
+ Performing a stabilization step.
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2169
+after normalization total means = 1.0000000000000306
+alpha = 4.0, SQUAREM iteraton [6]
+1/3
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2170
+after normalization total means = 1.0000000000000113
+2/3
+num of multi reads = 229595
+total multi counts = 200116
+total multi counts = 200116
+total means = 2170
+after normalization total means = 0.9999999999999711
+rNome = OPT_TOL 
+converge at iteration 6
+num of multi reads = 229595
+total multi counts = 200116
+TE counts total 6826638.999998692 
+Gene counts total 23569092.35417523 
+
+In library /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/04_mapped/18_3_Aligned.sortedByCoord.out.bam: 
+Total annotated reads = 30395731 
+Total non-uniquely mapped reads = 9368521 
+Total unannotated reads = 14692769 
+
+INFO  @ Sat, 30 Sep 2023 18:29:12: Finished processing sample file 
+Sat Sep 30 18:29:32 EDT 2023

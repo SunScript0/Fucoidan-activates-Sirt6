@@ -1,0 +1,6 @@
+*.Rdata
+*.rds
+*.RDS
+*.zip
+*.gtf
+*.idat

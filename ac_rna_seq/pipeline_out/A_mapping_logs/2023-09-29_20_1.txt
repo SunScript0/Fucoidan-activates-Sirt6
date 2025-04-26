@@ -1,0 +1,583 @@
+R1: /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R1.fastq.gz
+R2: /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R2.fastq.gz
+Name: 20_1
+Genome: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/STAR_with_SJs
+Fri Sep 29 22:27:18 EDT 2023
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/19056231
+FastQC v0.11.8
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/19056231
+Started analysis of 20_1_R1.fastq.gz
+Approx 5% complete for 20_1_R1.fastq.gz
+Approx 10% complete for 20_1_R1.fastq.gz
+Approx 15% complete for 20_1_R1.fastq.gz
+Approx 20% complete for 20_1_R1.fastq.gz
+Approx 25% complete for 20_1_R1.fastq.gz
+Approx 30% complete for 20_1_R1.fastq.gz
+Approx 35% complete for 20_1_R1.fastq.gz
+Approx 40% complete for 20_1_R1.fastq.gz
+Approx 45% complete for 20_1_R1.fastq.gz
+Approx 50% complete for 20_1_R1.fastq.gz
+Approx 55% complete for 20_1_R1.fastq.gz
+Approx 60% complete for 20_1_R1.fastq.gz
+Approx 65% complete for 20_1_R1.fastq.gz
+Approx 70% complete for 20_1_R1.fastq.gz
+Approx 75% complete for 20_1_R1.fastq.gz
+Approx 80% complete for 20_1_R1.fastq.gz
+Approx 85% complete for 20_1_R1.fastq.gz
+Approx 90% complete for 20_1_R1.fastq.gz
+Approx 95% complete for 20_1_R1.fastq.gz
+Analysis complete for 20_1_R1.fastq.gz
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/19056231
+Started analysis of 20_1_R2.fastq.gz
+Approx 5% complete for 20_1_R2.fastq.gz
+Approx 10% complete for 20_1_R2.fastq.gz
+Approx 15% complete for 20_1_R2.fastq.gz
+Approx 20% complete for 20_1_R2.fastq.gz
+Approx 25% complete for 20_1_R2.fastq.gz
+Approx 30% complete for 20_1_R2.fastq.gz
+Approx 35% complete for 20_1_R2.fastq.gz
+Approx 40% complete for 20_1_R2.fastq.gz
+Approx 45% complete for 20_1_R2.fastq.gz
+Approx 50% complete for 20_1_R2.fastq.gz
+Approx 55% complete for 20_1_R2.fastq.gz
+Approx 60% complete for 20_1_R2.fastq.gz
+Approx 65% complete for 20_1_R2.fastq.gz
+Approx 70% complete for 20_1_R2.fastq.gz
+Approx 75% complete for 20_1_R2.fastq.gz
+Approx 80% complete for 20_1_R2.fastq.gz
+Approx 85% complete for 20_1_R2.fastq.gz
+Approx 90% complete for 20_1_R2.fastq.gz
+Approx 95% complete for 20_1_R2.fastq.gz
+Analysis complete for 20_1_R2.fastq.gz
+TrimGalore version:
+
+                        Quality-/Adapter-/RRBS-/Speciality-Trimming
+                                [powered by Cutadapt]
+                                  version 0.6.2
+
+                               Last update: 21 03 2019
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 2.3
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/fs2/scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/02_trimmed_fastq/
+Using user-specified basename (>>20_1<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R1.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Illumina	369699	AGATCGGAAGAGC	1000000	36.97
+smallRNA	1	TGGAATTCTCGG	1000000	0.00
+Nextera	0	CTGTCTCTTATA	1000000	0.00
+Using Illumina adapter for trimming (count: 369699). Second best hit was smallRNA (count: 1)
+
+Writing report to '/gpfs/fs2/scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/02_trimmed_fastq/20_1_R1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.2
+Cutadapt version: 2.3
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.3). Setting -j 1
+Writing final adapter and quality trimmed output to 20_1_R1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R1.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+This is cutadapt 2.3 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 1349.47 s (21 us/read; 2.89 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              64,925,487
+Reads with adapters:                40,880,826 (63.0%)
+Reads written (passing filters):    64,925,487 (100.0%)
+
+Total basepairs processed: 9,738,823,050 bp
+Quality-trimmed:              21,343,190 bp (0.2%)
+Total written (filtered):  8,680,142,470 bp (89.1%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 40880826 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 9.4%
+  C: 36.6%
+  G: 41.0%
+  T: 13.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6483648	16231371.8	0	6483648
+2	2239847	4057842.9	0	2239847
+3	955631	1014460.7	0	955631
+4	543814	253615.2	0	543814
+5	499815	63403.8	0	499815
+6	474992	15850.9	0	474992
+7	510348	3962.7	0	510348
+8	509287	990.7	0	509287
+9	427801	247.7	0	427607 194
+10	523982	61.9	1	469601 54381
+11	556561	15.5	1	500276 56285
+12	540045	3.9	1	488254 51791
+13	596563	1.0	1	539051 57512
+14	565549	1.0	1	513863 51686
+15	587202	1.0	1	533683 53519
+16	589068	1.0	1	537836 51232
+17	657930	1.0	1	590591 67339
+18	651891	1.0	1	597964 53927
+19	592368	1.0	1	547465 44903
+20	625292	1.0	1	574627 50665
+21	610179	1.0	1	559948 50231
+22	651693	1.0	1	602501 49192
+23	626042	1.0	1	579100 46942
+24	588682	1.0	1	536695 51987
+25	571796	1.0	1	525195 46601
+26	541319	1.0	1	502699 38620
+27	546089	1.0	1	503003 43086
+28	559199	1.0	1	509474 49725
+29	540548	1.0	1	492497 48051
+30	526968	1.0	1	484439 42529
+31	505904	1.0	1	462052 43852
+32	522754	1.0	1	480716 42038
+33	544778	1.0	1	503108 41670
+34	631402	1.0	1	574227 57175
+35	547835	1.0	1	503780 44055
+36	525727	1.0	1	487016 38711
+37	578968	1.0	1	526779 52189
+38	472175	1.0	1	434749 37426
+39	559353	1.0	1	516906 42447
+40	550418	1.0	1	502542 47876
+41	572221	1.0	1	516568 55653
+42	560315	1.0	1	519153 41162
+43	445511	1.0	1	409689 35822
+44	501209	1.0	1	459054 42155
+45	793443	1.0	1	730902 62541
+46	158507	1.0	1	145147 13360
+47	390867	1.0	1	358143 32724
+48	678771	1.0	1	621048 57723
+49	393182	1.0	1	364543 28639
+50	309400	1.0	1	287447 21953
+51	509737	1.0	1	471221 38516
+52	408561	1.0	1	376678 31883
+53	317392	1.0	1	295429 21963
+54	370367	1.0	1	340460 29907
+55	350179	1.0	1	322777 27402
+56	332832	1.0	1	308522 24310
+57	302710	1.0	1	281516 21194
+58	286332	1.0	1	265703 20629
+59	437283	1.0	1	405072 32211
+60	146294	1.0	1	136544 9750
+61	175695	1.0	1	163795 11900
+62	284150	1.0	1	264924 19226
+63	163935	1.0	1	153490 10445
+64	129177	1.0	1	121186 7991
+65	152318	1.0	1	142124 10194
+66	346196	1.0	1	323313 22883
+67	81880	1.0	1	76327 5553
+68	134663	1.0	1	125038 9625
+69	67568	1.0	1	62338 5230
+70	43231	1.0	1	39704 3527
+71	4817	1.0	1	4314 503
+72	15767	1.0	1	14490 1277
+73	40397	1.0	1	37185 3212
+74	55744	1.0	1	51722 4022
+75	58438	1.0	1	53659 4779
+76	51014	1.0	1	46715 4299
+77	50598	1.0	1	47086 3512
+78	47860	1.0	1	44293 3567
+79	39523	1.0	1	36596 2927
+80	34672	1.0	1	32116 2556
+81	29456	1.0	1	27221 2235
+82	28565	1.0	1	26696 1869
+83	24466	1.0	1	22755 1711
+84	23349	1.0	1	21826 1523
+85	21184	1.0	1	19712 1472
+86	19281	1.0	1	17971 1310
+87	18193	1.0	1	17016 1177
+88	18044	1.0	1	16924 1120
+89	16656	1.0	1	15634 1022
+90	16222	1.0	1	15186 1036
+91	13086	1.0	1	12236 850
+92	10741	1.0	1	10053 688
+93	8208	1.0	1	7648 560
+94	6320	1.0	1	5892 428
+95	6605	1.0	1	6205 400
+96	5289	1.0	1	4958 331
+97	5197	1.0	1	4923 274
+98	3879	1.0	1	3637 242
+99	3454	1.0	1	3203 251
+100	2734	1.0	1	2497 237
+101	2242	1.0	1	2079 163
+102	1704	1.0	1	1566 138
+103	1480	1.0	1	1383 97
+104	1196	1.0	1	1097 99
+105	1012	1.0	1	930 82
+106	1058	1.0	1	982 76
+107	936	1.0	1	860 76
+108	951	1.0	1	890 61
+109	790	1.0	1	719 71
+110	621	1.0	1	562 59
+111	503	1.0	1	477 26
+112	448	1.0	1	400 48
+113	364	1.0	1	333 31
+114	314	1.0	1	284 30
+115	290	1.0	1	272 18
+116	239	1.0	1	217 22
+117	270	1.0	1	245 25
+118	203	1.0	1	190 13
+119	208	1.0	1	189 19
+120	206	1.0	1	195 11
+121	178	1.0	1	171 7
+122	147	1.0	1	130 17
+123	131	1.0	1	119 12
+124	107	1.0	1	97 10
+125	85	1.0	1	74 11
+126	60	1.0	1	47 13
+127	52	1.0	1	43 9
+128	49	1.0	1	38 11
+129	58	1.0	1	52 6
+130	34	1.0	1	22 12
+131	31	1.0	1	24 7
+132	52	1.0	1	46 6
+133	23	1.0	1	22 1
+134	19	1.0	1	14 5
+135	55	1.0	1	52 3
+136	25	1.0	1	21 4
+137	18	1.0	1	13 5
+138	21	1.0	1	21
+139	11	1.0	1	8 3
+140	4	1.0	1	3 1
+141	9	1.0	1	4 5
+142	10	1.0	1	1 9
+143	5	1.0	1	0 5
+144	9	1.0	1	2 7
+145	19	1.0	1	10 9
+146	5	1.0	1	0 5
+147	9	1.0	1	0 9
+148	15	1.0	1	1 14
+149	29	1.0	1	0 29
+150	7373	1.0	1	1 7372
+
+RUN STATISTICS FOR INPUT FILE: /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R1.fastq.gz
+=============================================
+64925487 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/gpfs/fs2/scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/02_trimmed_fastq/20_1_R2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.2
+Cutadapt version: 2.3
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.3). Setting -j -j 1
+Writing final adapter and quality trimmed output to 20_1_R2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R2.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+This is cutadapt 2.3 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R2.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 1514.88 s (23 us/read; 2.57 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              64,925,487
+Reads with adapters:                42,351,150 (65.2%)
+Reads written (passing filters):    64,925,487 (100.0%)
+
+Total basepairs processed: 9,738,823,050 bp
+Quality-trimmed:             109,211,665 bp (1.1%)
+Total written (filtered):  8,631,033,142 bp (88.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 42351150 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 14.9%
+  C: 30.4%
+  G: 44.3%
+  T: 10.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8584042	16231371.8	0	8584042
+2	2759364	4057842.9	0	2759364
+3	1152749	1014460.7	0	1152749
+4	561158	253615.2	0	561158
+5	492595	63403.8	0	492595
+6	464667	15850.9	0	464667
+7	498469	3962.7	0	498469
+8	542293	990.7	0	542293
+9	402028	247.7	0	401694 334
+10	484498	61.9	1	458026 26472
+11	536482	15.5	1	495565 40917
+12	521828	3.9	1	488434 33394
+13	561090	1.0	1	522493 38597
+14	586395	1.0	1	541494 44901
+15	511710	1.0	1	485388 26322
+16	551317	1.0	1	521138 30179
+17	693142	1.0	1	646914 46228
+18	507697	1.0	1	487478 20219
+19	711983	1.0	1	662660 49323
+20	525519	1.0	1	500827 24692
+21	545701	1.0	1	516916 28785
+22	608318	1.0	1	575522 32796
+23	597512	1.0	1	564420 33092
+24	615797	1.0	1	571630 44167
+25	624221	1.0	1	597412 26809
+26	428928	1.0	1	405927 23001
+27	511859	1.0	1	477386 34473
+28	493897	1.0	1	472253 21644
+29	511249	1.0	1	477460 33789
+30	518574	1.0	1	491674 26900
+31	460770	1.0	1	440126 20644
+32	479852	1.0	1	456753 23099
+33	556791	1.0	1	522706 34085
+34	535893	1.0	1	508693 27200
+35	539545	1.0	1	513684 25861
+36	520830	1.0	1	497036 23794
+37	605253	1.0	1	558371 46882
+38	418898	1.0	1	399839 19059
+39	514294	1.0	1	489473 24821
+40	519743	1.0	1	495607 24136
+41	451186	1.0	1	433877 17309
+42	491382	1.0	1	464048 27334
+43	450040	1.0	1	430643 19397
+44	466490	1.0	1	441463 25027
+45	461452	1.0	1	438649 22803
+46	449066	1.0	1	422750 26316
+47	393836	1.0	1	376600 17236
+48	416811	1.0	1	393776 23035
+49	476477	1.0	1	448937 27540
+50	442638	1.0	1	425969 16669
+51	446807	1.0	1	428714 18093
+52	394452	1.0	1	379612 14840
+53	374138	1.0	1	360123 14015
+54	353076	1.0	1	337813 15263
+55	298254	1.0	1	287493 10761
+56	301607	1.0	1	290290 11317
+57	328076	1.0	1	311414 16662
+58	272497	1.0	1	261930 10567
+59	244476	1.0	1	237470 7006
+60	242954	1.0	1	232759 10195
+61	200049	1.0	1	193568 6481
+62	189003	1.0	1	181332 7671
+63	222004	1.0	1	213741 8263
+64	138652	1.0	1	134623 4029
+65	147134	1.0	1	141707 5427
+66	134921	1.0	1	130458 4463
+67	138859	1.0	1	134753 4106
+68	122302	1.0	1	117505 4797
+69	99248	1.0	1	96230 3018
+70	94155	1.0	1	90859 3296
+71	82383	1.0	1	79575 2808
+72	78323	1.0	1	75668 2655
+73	84329	1.0	1	81418 2911
+74	85032	1.0	1	82031 3001
+75	89689	1.0	1	87021 2668
+76	35567	1.0	1	34548 1019
+77	30535	1.0	1	29495 1040
+78	36438	1.0	1	35199 1239
+79	31847	1.0	1	30827 1020
+80	29163	1.0	1	28157 1006
+81	25014	1.0	1	24168 846
+82	24971	1.0	1	24208 763
+83	21753	1.0	1	21130 623
+84	20970	1.0	1	20340 630
+85	18874	1.0	1	18323 551
+86	17194	1.0	1	16613 581
+87	16361	1.0	1	15841 520
+88	16145	1.0	1	15644 501
+89	15289	1.0	1	14872 417
+90	15196	1.0	1	14825 371
+91	12169	1.0	1	11832 337
+92	10063	1.0	1	9793 270
+93	7810	1.0	1	7557 253
+94	5823	1.0	1	5650 173
+95	6179	1.0	1	5992 187
+96	5005	1.0	1	4829 176
+97	4858	1.0	1	4720 138
+98	3722	1.0	1	3599 123
+99	3329	1.0	1	3227 102
+100	2631	1.0	1	2550 81
+101	2106	1.0	1	2016 90
+102	1582	1.0	1	1525 57
+103	1372	1.0	1	1316 56
+104	1091	1.0	1	1048 43
+105	966	1.0	1	913 53
+106	1003	1.0	1	958 45
+107	881	1.0	1	851 30
+108	905	1.0	1	870 35
+109	733	1.0	1	691 42
+110	572	1.0	1	540 32
+111	489	1.0	1	472 17
+112	419	1.0	1	407 12
+113	358	1.0	1	336 22
+114	304	1.0	1	283 21
+115	278	1.0	1	257 21
+116	239	1.0	1	221 18
+117	258	1.0	1	241 17
+118	220	1.0	1	194 26
+119	206	1.0	1	193 13
+120	197	1.0	1	188 9
+121	181	1.0	1	172 9
+122	143	1.0	1	130 13
+123	132	1.0	1	124 8
+124	110	1.0	1	98 12
+125	87	1.0	1	79 8
+126	56	1.0	1	52 4
+127	52	1.0	1	46 6
+128	50	1.0	1	42 8
+129	55	1.0	1	53 2
+130	25	1.0	1	23 2
+131	30	1.0	1	21 9
+132	59	1.0	1	49 10
+133	28	1.0	1	20 8
+134	23	1.0	1	16 7
+135	61	1.0	1	54 7
+136	32	1.0	1	20 12
+137	23	1.0	1	15 8
+138	27	1.0	1	21 6
+139	17	1.0	1	8 9
+140	19	1.0	1	3 16
+141	18	1.0	1	4 14
+142	10	1.0	1	1 9
+143	3	1.0	1	0 3
+144	5	1.0	1	0 5
+145	16	1.0	1	1 15
+146	10	1.0	1	0 10
+147	30	1.0	1	0 30
+148	4	1.0	1	1 3
+149	3	1.0	1	0 3
+150	7	1.0	1	0 7
+
+RUN STATISTICS FOR INPUT FILE: /scratch/fmorandi/internal/Ali/rna_seq/pipeline_out/00_fastq/20_1_R2.fastq.gz
+=============================================
+64925487 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 20_1_R1_trimmed.fq.gz and 20_1_R2_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>20_1_R1_trimmed.fq.gz<<	RENAMING TO:>>20_1_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>20_1_R2_trimmed.fq.gz<<	RENAMING TO:>>20_1_R2_trimmed.fq.gz<<
+file_1: 20_1_R1_trimmed.fq.gz, file_2: 20_1_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 20_1_R1_trimmed.fq.gz and 20_1_R2_trimmed.fq.gz <<<<<
+Writing validated paired-end read 1 reads to 20_1_R1_val_1.fq.gz
+Writing validated paired-end read 2 reads to 20_1_R2_val_2.fq.gz
+
+Total number of sequences analysed: 64925487
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 320468 (0.49%)
+
+Deleting both intermediate output files 20_1_R1_trimmed.fq.gz and 20_1_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/19056231
+Started analysis of 20_1_R1_val_1.fq.gz
+Approx 5% complete for 20_1_R1_val_1.fq.gz
+Approx 10% complete for 20_1_R1_val_1.fq.gz
+Approx 15% complete for 20_1_R1_val_1.fq.gz
+Approx 20% complete for 20_1_R1_val_1.fq.gz
+Approx 25% complete for 20_1_R1_val_1.fq.gz
+Approx 30% complete for 20_1_R1_val_1.fq.gz
+Approx 35% complete for 20_1_R1_val_1.fq.gz
+Approx 40% complete for 20_1_R1_val_1.fq.gz
+Approx 45% complete for 20_1_R1_val_1.fq.gz
+Approx 50% complete for 20_1_R1_val_1.fq.gz
+Approx 55% complete for 20_1_R1_val_1.fq.gz
+Approx 60% complete for 20_1_R1_val_1.fq.gz
+Approx 65% complete for 20_1_R1_val_1.fq.gz
+Approx 70% complete for 20_1_R1_val_1.fq.gz
+Approx 75% complete for 20_1_R1_val_1.fq.gz
+Approx 80% complete for 20_1_R1_val_1.fq.gz
+Approx 85% complete for 20_1_R1_val_1.fq.gz
+Approx 90% complete for 20_1_R1_val_1.fq.gz
+Approx 95% complete for 20_1_R1_val_1.fq.gz
+Analysis complete for 20_1_R1_val_1.fq.gz
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/19056231
+Started analysis of 20_1_R2_val_2.fq.gz
+Approx 5% complete for 20_1_R2_val_2.fq.gz
+Approx 10% complete for 20_1_R2_val_2.fq.gz
+Approx 15% complete for 20_1_R2_val_2.fq.gz
+Approx 20% complete for 20_1_R2_val_2.fq.gz
+Approx 25% complete for 20_1_R2_val_2.fq.gz
+Approx 30% complete for 20_1_R2_val_2.fq.gz
+Approx 35% complete for 20_1_R2_val_2.fq.gz
+Approx 40% complete for 20_1_R2_val_2.fq.gz
+Approx 45% complete for 20_1_R2_val_2.fq.gz
+Approx 50% complete for 20_1_R2_val_2.fq.gz
+Approx 55% complete for 20_1_R2_val_2.fq.gz
+Approx 60% complete for 20_1_R2_val_2.fq.gz
+Approx 65% complete for 20_1_R2_val_2.fq.gz
+Approx 70% complete for 20_1_R2_val_2.fq.gz
+Approx 75% complete for 20_1_R2_val_2.fq.gz
+Approx 80% complete for 20_1_R2_val_2.fq.gz
+Approx 85% complete for 20_1_R2_val_2.fq.gz
+Approx 90% complete for 20_1_R2_val_2.fq.gz
+Approx 95% complete for 20_1_R2_val_2.fq.gz
+Analysis complete for 20_1_R2_val_2.fq.gz
+STAR  2.7.8a
+Sep 30 00:26:58 ..... started STAR run
+Sep 30 00:26:58 ..... loading genome
+Sep 30 00:27:11 ..... started mapping
+Sep 30 02:40:03 ..... finished mapping
+Sep 30 02:40:04 ..... started sorting BAM
+Sep 30 02:41:13 ..... finished successfully
+Sat Sep 30 02:41:13 EDT 2023
