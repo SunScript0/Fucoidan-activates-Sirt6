@@ -1,0 +1,9 @@
+Males:
+  variable   pval        method   pval.txt
+1     Diet 0.0092 Gehan-Breslow p = 0.0092
+Females:
+  variable pval        method pval.txt
+1     Diet 0.12 Gehan-Breslow p = 0.12
+S6KO:
+  variable   pval        method pval.txt
+1     Diet 0.8712 Gehan-Breslow p = 0.87

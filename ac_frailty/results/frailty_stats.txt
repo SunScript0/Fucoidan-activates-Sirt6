@@ -1,0 +1,101 @@
+===================== Test frailty month by month =====================
+# A tibble: 14 × 10
+   Month Sex   .y.   group1 group2         p   p.adj p.format p.signif method  
+   <int> <chr> <chr> <chr>  <chr>      <dbl>   <dbl> <chr>    <chr>    <chr>   
+ 1    19 F     Total Ctrl   Fuc.   0.246     0.25    0.24613  ns       Wilcoxon
+ 2    19 M     Total Ctrl   Fuc.   0.000834  0.0067  0.00083  ***      Wilcoxon
+ 3    20 F     Total Ctrl   Fuc.   0.0118    0.047   0.01183  *        Wilcoxon
+ 4    20 M     Total Ctrl   Fuc.   0.000206  0.0025  0.00021  ***      Wilcoxon
+ 5    21 F     Total Ctrl   Fuc.   0.0628    0.13    0.06278  ns       Wilcoxon
+ 6    21 M     Total Ctrl   Fuc.   0.0000419 0.00054 4.2e-05  ****     Wilcoxon
+ 7    22 F     Total Ctrl   Fuc.   0.00160   0.0096  0.00160  **       Wilcoxon
+ 8    22 M     Total Ctrl   Fuc.   0.0000100 0.00014 1.0e-05  ****     Wilcoxon
+ 9    23 F     Total Ctrl   Fuc.   0.000705  0.0063  0.00071  ***      Wilcoxon
+10    23 M     Total Ctrl   Fuc.   0.000272  0.003   0.00027  ***      Wilcoxon
+11    24 F     Total Ctrl   Fuc.   0.000917  0.0067  0.00092  ***      Wilcoxon
+12    24 M     Total Ctrl   Fuc.   0.000301  0.003   0.00030  ***      Wilcoxon
+13    25 F     Total Ctrl   Fuc.   0.00170   0.0096  0.00170  **       Wilcoxon
+14    25 M     Total Ctrl   Fuc.   0.0179    0.054   0.01792  *        Wilcoxon
+
+===================== Test weight month by month =====================
+# A tibble: 14 × 10
+   Month Sex   .y.    group1 group2     p p.adj p.format p.signif method  
+   <int> <chr> <chr>  <chr>  <chr>  <dbl> <dbl> <chr>    <chr>    <chr>   
+ 1    19 F     Weight Ctrl   Fuc.   0.524     1 0.52     ns       Wilcoxon
+ 2    19 M     Weight Ctrl   Fuc.   0.827     1 0.83     ns       Wilcoxon
+ 3    20 F     Weight Ctrl   Fuc.   0.211     1 0.21     ns       Wilcoxon
+ 4    20 M     Weight Ctrl   Fuc.   0.253     1 0.25     ns       Wilcoxon
+ 5    21 F     Weight Ctrl   Fuc.   0.275     1 0.28     ns       Wilcoxon
+ 6    21 M     Weight Ctrl   Fuc.   0.540     1 0.54     ns       Wilcoxon
+ 7    22 F     Weight Ctrl   Fuc.   0.765     1 0.77     ns       Wilcoxon
+ 8    22 M     Weight Ctrl   Fuc.   0.825     1 0.82     ns       Wilcoxon
+ 9    23 F     Weight Ctrl   Fuc.   0.682     1 0.68     ns       Wilcoxon
+10    23 M     Weight Ctrl   Fuc.   0.657     1 0.66     ns       Wilcoxon
+11    24 F     Weight Ctrl   Fuc.   0.781     1 0.78     ns       Wilcoxon
+12    24 M     Weight Ctrl   Fuc.   0.976     1 0.98     ns       Wilcoxon
+13    25 F     Weight Ctrl   Fuc.   0.748     1 0.75     ns       Wilcoxon
+14    25 M     Weight Ctrl   Fuc.   0.317     1 0.32     ns       Wilcoxon
+
+===================== Mixed model: males =====================
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: Total ~ TreatmentMonth * Diet + (1 | AnimalID)
+   Data: dataM
+
+REML criterion at convergence: -615.9
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.3384 -0.5863 -0.0661  0.5141  4.1532 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ AnimalID (Intercept) 0.001286 0.03586 
+ Residual             0.001913 0.04373 
+Number of obs: 205, groups:  AnimalID, 35
+
+Fixed effects:
+                          Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)               0.078067   0.020653 173.442124   3.780 0.000216 ***
+TreatmentMonth            0.018104   0.002769 178.110194   6.538 6.37e-10 ***
+DietFuc.                 -0.051639   0.025900 167.769493  -1.994 0.047792 *  
+TreatmentMonth:DietFuc.  -0.006754   0.003364 173.787184  -2.007 0.046267 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) TrtmnM DitFc.
+TretmntMnth -0.835              
+DietFuc.    -0.797  0.666       
+TrtmntM:DF.  0.688 -0.823 -0.833
+
+===================== Mixed model: females =====================
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: Total ~ TreatmentMonth * Diet + (1 | AnimalID)
+   Data: dataF
+
+REML criterion at convergence: -636.4
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.46764 -0.70103 -0.06736  0.61790  2.82117 
+
+Random effects:
+ Groups   Name        Variance  Std.Dev.
+ AnimalID (Intercept) 0.0007102 0.02665 
+ Residual             0.0027085 0.05204 
+Number of obs: 229, groups:  AnimalID, 39
+
+Fixed effects:
+                          Estimate Std. Error         df t value Pr(>|t|)    
+(Intercept)               0.018041   0.020038 223.197202   0.900  0.36889    
+TreatmentMonth            0.022349   0.002746 207.788668   8.140 3.61e-14 ***
+DietFuc.                  0.005549   0.026414 223.067265   0.210  0.83379    
+TreatmentMonth:DietFuc.  -0.010045   0.003607 206.089859  -2.785  0.00585 ** 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) TrtmnM DitFc.
+TretmntMnth -0.906              
+DietFuc.    -0.759  0.687       
+TrtmntM:DF.  0.690 -0.761 -0.905
