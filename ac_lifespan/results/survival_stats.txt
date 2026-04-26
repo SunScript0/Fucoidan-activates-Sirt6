@@ -1,9 +1,20 @@
+======= Wild-types =======
 Males:
   variable   pval        method   pval.txt
 1     Diet 0.0092 Gehan-Breslow p = 0.0092
 Females:
   variable pval        method pval.txt
 1     Diet 0.12 Gehan-Breslow p = 0.12
-S6KO:
+======= Sirt6 KOs =======
+Combined:
   variable   pval        method pval.txt
-1     Diet 0.8712 Gehan-Breslow p = 0.87
+1     Diet 0.5539 Gehan-Breslow p = 0.55
+Combined, known sex:
+  variable  pval        method pval.txt
+1     Diet 0.346 Gehan-Breslow p = 0.35
+Males:
+  variable   pval        method pval.txt
+1     Diet 0.3482 Gehan-Breslow p = 0.35
+Females:
+  variable   pval        method pval.txt
+1     Diet 0.6535 Gehan-Breslow p = 0.65
