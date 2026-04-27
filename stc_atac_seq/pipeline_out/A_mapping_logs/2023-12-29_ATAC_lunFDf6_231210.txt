@@ -1,0 +1,924 @@
+R1: /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R1.fastq.gz
+R2: /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R2.fastq.gz
+Name: ATAC_lunFDf6_231210
+Genome: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Bowtie2/GRCm39
+Fri Dec 29 23:17:23 EST 2023
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/21691039
+FastQC v0.11.8
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/21691039
+Started analysis of ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 5% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 10% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 15% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 20% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 25% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 30% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 35% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 40% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 45% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 50% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 55% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 60% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 65% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 70% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 75% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 80% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 85% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 90% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Approx 95% complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Analysis complete for ATAC_lunFDf6_231210_R1.fastq.gz
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/21691039
+Started analysis of ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 5% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 10% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 15% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 20% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 25% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 30% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 35% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 40% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 45% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 50% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 55% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 60% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 65% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 70% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 75% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 80% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 85% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 90% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Approx 95% complete for ATAC_lunFDf6_231210_R2.fastq.gz
+Analysis complete for ATAC_lunFDf6_231210_R2.fastq.gz
+TrimGalore version:
+
+                        Quality-/Adapter-/RRBS-/Speciality-Trimming
+                                [powered by Cutadapt]
+                                  version 0.6.2
+
+                               Last update: 21 03 2019
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 2.3
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/fs2/scratch/fmorandi/internal/Ali/atac_seq3/02_trimmed_fastq/
+Using user-specified basename (>>ATAC_lunFDf6_231210<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R1.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	400222	CTGTCTCTTATA	1000000	40.02
+smallRNA	4	TGGAATTCTCGG	1000000	0.00
+Illumina	2	AGATCGGAAGAGC	1000000	0.00
+Using Nextera adapter for trimming (count: 400222). Second best hit was smallRNA (count: 4)
+
+Writing report to '/gpfs/fs2/scratch/fmorandi/internal/Ali/atac_seq3/02_trimmed_fastq/ATAC_lunFDf6_231210_R1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.2
+Cutadapt version: 2.3
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.3). Setting -j 1
+Writing final adapter and quality trimmed output to ATAC_lunFDf6_231210_R1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R1.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+This is cutadapt 2.3 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 1724.86 s (35 us/read; 1.71 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              49,025,241
+Reads with adapters:                31,893,317 (65.1%)
+Reads written (passing filters):    49,025,241 (100.0%)
+
+Total basepairs processed: 7,353,786,150 bp
+Quality-trimmed:              22,729,594 bp (0.3%)
+Total written (filtered):  5,949,053,609 bp (80.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 31893317 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 12.6%
+  C: 41.6%
+  G: 26.4%
+  T: 19.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6716208	12256310.2	0	6716208
+2	2083767	3064077.6	0	2083767
+3	768664	766019.4	0	768664
+4	312529	191504.8	0	312529
+5	199435	47876.2	0	199435
+6	170376	11969.1	0	170376
+7	163449	2992.3	0	163449
+8	163460	748.1	0	163460
+9	158785	187.0	0	157264 1521
+10	173756	46.8	1	165006 8750
+11	178702	11.7	1	169690 9012
+12	190969	2.9	1	178943 12026
+13	182846	2.9	1	173166 9680
+14	186161	2.9	1	174375 11786
+15	179251	2.9	1	168799 10452
+16	193762	2.9	1	180992 12770
+17	160253	2.9	1	152057 8196
+18	170432	2.9	1	161308 9124
+19	169694	2.9	1	160799 8895
+20	185622	2.9	1	175341 10281
+21	189420	2.9	1	178627 10793
+22	179847	2.9	1	171184 8663
+23	212283	2.9	1	199420 12863
+24	190811	2.9	1	181454 9357
+25	198737	2.9	1	188082 10655
+26	188196	2.9	1	178166 10030
+27	182062	2.9	1	171884 10178
+28	175773	2.9	1	165504 10269
+29	190598	2.9	1	179003 11595
+30	168673	2.9	1	160746 7927
+31	198374	2.9	1	186864 11510
+32	189408	2.9	1	180476 8932
+33	205160	2.9	1	193467 11693
+34	211572	2.9	1	200086 11486
+35	214268	2.9	1	203125 11143
+36	185616	2.9	1	174904 10712
+37	189101	2.9	1	178869 10232
+38	197203	2.9	1	184149 13054
+39	169079	2.9	1	159628 9451
+40	190568	2.9	1	180283 10285
+41	168074	2.9	1	159808 8266
+42	200836	2.9	1	189372 11464
+43	196914	2.9	1	187087 9827
+44	219037	2.9	1	205706 13331
+45	223004	2.9	1	209316 13688
+46	202733	2.9	1	191087 11646
+47	261612	2.9	1	251455 10157
+48	123391	2.9	1	115105 8286
+49	176841	2.9	1	167559 9282
+50	182110	2.9	1	173176 8934
+51	176021	2.9	1	167514 8507
+52	201781	2.9	1	190037 11744
+53	242024	2.9	1	230587 11437
+54	187534	2.9	1	178637 8897
+55	197469	2.9	1	187899 9570
+56	226343	2.9	1	214584 11759
+57	216680	2.9	1	206946 9734
+58	183983	2.9	1	175147 8836
+59	192006	2.9	1	182688 9318
+60	181138	2.9	1	172136 9002
+61	190871	2.9	1	182453 8418
+62	169235	2.9	1	161422 7813
+63	182723	2.9	1	173514 9209
+64	224461	2.9	1	214402 10059
+65	225027	2.9	1	215776 9251
+66	207647	2.9	1	198635 9012
+67	212599	2.9	1	201499 11100
+68	273678	2.9	1	263905 9773
+69	198778	2.9	1	187670 11108
+70	286592	2.9	1	275295 11297
+71	257845	2.9	1	244140 13705
+72	341155	2.9	1	333177 7978
+73	27214	2.9	1	23880 3334
+74	28656	2.9	1	24908 3748
+75	93395	2.9	1	88022 5373
+76	150347	2.9	1	143444 6903
+77	193365	2.9	1	185400 7965
+78	204182	2.9	1	195858 8324
+79	180536	2.9	1	172809 7727
+80	154600	2.9	1	147946 6654
+81	151781	2.9	1	145127 6654
+82	153835	2.9	1	146966 6869
+83	172885	2.9	1	165167 7718
+84	186122	2.9	1	178033 8089
+85	198737	2.9	1	189826 8911
+86	207144	2.9	1	198164 8980
+87	237998	2.9	1	227985 10013
+88	270522	2.9	1	259491 11031
+89	235259	2.9	1	225574 9685
+90	177759	2.9	1	170090 7669
+91	147679	2.9	1	140938 6741
+92	145276	2.9	1	138588 6688
+93	162978	2.9	1	155400 7578
+94	186647	2.9	1	178615 8032
+95	206311	2.9	1	197549 8762
+96	221122	2.9	1	211838 9284
+97	282601	2.9	1	271339 11262
+98	383245	2.9	1	369203 14042
+99	356563	2.9	1	343221 13342
+100	250983	2.9	1	241041 9942
+101	175075	2.9	1	167519 7556
+102	152959	2.9	1	146505 6454
+103	167796	2.9	1	160589 7207
+104	199502	2.9	1	191200 8302
+105	233436	2.9	1	224037 9399
+106	243798	2.9	1	234219 9579
+107	265718	2.9	1	255322 10396
+108	332870	2.9	1	320888 11982
+109	358673	2.9	1	345470 13203
+110	293778	2.9	1	283008 10770
+111	194841	2.9	1	187092 7749
+112	150918	2.9	1	144784 6134
+113	138324	2.9	1	132775 5549
+114	118657	2.9	1	113461 5196
+115	79468	2.9	1	76189 3279
+116	40430	2.9	1	38693 1737
+117	25768	2.9	1	24352 1416
+118	12738	2.9	1	11899 839
+119	10745	2.9	1	9877 868
+120	7979	2.9	1	7470 509
+121	10717	2.9	1	9972 745
+122	8507	2.9	1	7963 544
+123	12434	2.9	1	11360 1074
+124	9446	2.9	1	8790 656
+125	2289	2.9	1	1974 315
+126	754	2.9	1	497 257
+127	1410	2.9	1	1151 259
+128	803	2.9	1	472 331
+129	2313	2.9	1	1973 340
+130	978	2.9	1	315 663
+131	1268	2.9	1	937 331
+132	387	2.9	1	115 272
+133	779	2.9	1	272 507
+134	285	2.9	1	63 222
+135	270	2.9	1	87 183
+136	262	2.9	1	39 223
+137	290	2.9	1	47 243
+138	461	2.9	1	19 442
+139	232	2.9	1	13 219
+140	478	2.9	1	22 456
+141	323	2.9	1	51 272
+142	950	2.9	1	27 923
+143	202	2.9	1	7 195
+144	216	2.9	1	6 210
+145	75	2.9	1	2 73
+146	133	2.9	1	1 132
+147	337	2.9	1	21 316
+148	233	2.9	1	4 229
+149	83	2.9	1	3 80
+150	175	2.9	1	78 97
+
+RUN STATISTICS FOR INPUT FILE: /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R1.fastq.gz
+=============================================
+49025241 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/gpfs/fs2/scratch/fmorandi/internal/Ali/atac_seq3/02_trimmed_fastq/ATAC_lunFDf6_231210_R2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.2
+Cutadapt version: 2.3
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.3). Setting -j -j 1
+Writing final adapter and quality trimmed output to ATAC_lunFDf6_231210_R2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R2.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+This is cutadapt 2.3 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R2.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 1867.17 s (38 us/read; 1.58 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              49,025,241
+Reads with adapters:                31,717,841 (64.7%)
+Reads written (passing filters):    49,025,241 (100.0%)
+
+Total basepairs processed: 7,353,786,150 bp
+Quality-trimmed:              30,206,079 bp (0.4%)
+Total written (filtered):  5,948,300,630 bp (80.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 31717841 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 12.7%
+  C: 41.3%
+  G: 26.6%
+  T: 19.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6657704	12256310.2	0	6657704
+2	2071267	3064077.6	0	2071267
+3	786455	766019.4	0	786455
+4	313756	191504.8	0	313756
+5	199263	47876.2	0	199263
+6	167968	11969.1	0	167968
+7	162742	2992.3	0	162742
+8	162306	748.1	0	162306
+9	154763	187.0	0	153455 1308
+10	170997	46.8	1	161645 9352
+11	178480	11.7	1	170533 7947
+12	187731	2.9	1	178564 9167
+13	181652	2.9	1	174447 7205
+14	182482	2.9	1	173610 8872
+15	176808	2.9	1	169316 7492
+16	182136	2.9	1	171769 10367
+17	166602	2.9	1	159971 6631
+18	168352	2.9	1	160908 7444
+19	172802	2.9	1	165267 7535
+20	173365	2.9	1	166748 6617
+21	186695	2.9	1	177796 8899
+22	205964	2.9	1	196885 9079
+23	182745	2.9	1	175853 6892
+24	196359	2.9	1	187473 8886
+25	202408	2.9	1	193898 8510
+26	188326	2.9	1	180876 7450
+27	176244	2.9	1	169474 6770
+28	174350	2.9	1	166883 7467
+29	172682	2.9	1	166424 6258
+30	180279	2.9	1	172517 7762
+31	194789	2.9	1	186279 8510
+32	193458	2.9	1	185867 7591
+33	218128	2.9	1	207595 10533
+34	197917	2.9	1	190317 7600
+35	199822	2.9	1	191727 8095
+36	196057	2.9	1	188641 7416
+37	183380	2.9	1	176576 6804
+38	181128	2.9	1	173982 7146
+39	179260	2.9	1	172246 7014
+40	172785	2.9	1	166792 5993
+41	180737	2.9	1	174295 6442
+42	192978	2.9	1	186324 6654
+43	201607	2.9	1	194281 7326
+44	215423	2.9	1	207118 8305
+45	202000	2.9	1	195746 6254
+46	203418	2.9	1	196858 6560
+47	196867	2.9	1	190462 6405
+48	193142	2.9	1	186236 6906
+49	163195	2.9	1	158516 4679
+50	172964	2.9	1	166936 6028
+51	180269	2.9	1	174124 6145
+52	188334	2.9	1	182711 5623
+53	199416	2.9	1	193243 6173
+54	221042	2.9	1	214081 6961
+55	201268	2.9	1	195506 5762
+56	212264	2.9	1	206003 6261
+57	201438	2.9	1	195944 5494
+58	193786	2.9	1	187948 5838
+59	180927	2.9	1	175097 5830
+60	159390	2.9	1	154997 4393
+61	175139	2.9	1	170288 4851
+62	181544	2.9	1	175768 5776
+63	196387	2.9	1	190443 5944
+64	196264	2.9	1	190693 5571
+65	260216	2.9	1	251623 8593
+66	204308	2.9	1	199335 4973
+67	200399	2.9	1	194932 5467
+68	182904	2.9	1	178038 4866
+69	184225	2.9	1	179007 5218
+70	181249	2.9	1	175576 5673
+71	154385	2.9	1	150281 4104
+72	172637	2.9	1	168067 4570
+73	198253	2.9	1	192442 5811
+74	209711	2.9	1	203420 6291
+75	304524	2.9	1	296918 7606
+76	294251	2.9	1	286718 7533
+77	412549	2.9	1	404484 8065
+78	217230	2.9	1	212443 4787
+79	128836	2.9	1	125033 3803
+80	126606	2.9	1	123272 3334
+81	127228	2.9	1	123723 3505
+82	132781	2.9	1	129101 3680
+83	151426	2.9	1	147507 3919
+84	165313	2.9	1	161123 4190
+85	182329	2.9	1	177996 4333
+86	191507	2.9	1	186873 4634
+87	221507	2.9	1	216245 5262
+88	248217	2.9	1	242600 5617
+89	216924	2.9	1	212008 4916
+90	163168	2.9	1	159334 3834
+91	141037	2.9	1	137520 3517
+92	145429	2.9	1	142133 3296
+93	157459	2.9	1	153531 3928
+94	184808	2.9	1	180613 4195
+95	206287	2.9	1	201465 4822
+96	208560	2.9	1	203971 4589
+97	276807	2.9	1	271073 5734
+98	367427	2.9	1	360279 7148
+99	338217	2.9	1	331435 6782
+100	247708	2.9	1	242738 4970
+101	182308	2.9	1	178543 3765
+102	164348	2.9	1	160962 3386
+103	167564	2.9	1	164160 3404
+104	191743	2.9	1	187870 3873
+105	221200	2.9	1	216937 4263
+106	229331	2.9	1	224951 4380
+107	260714	2.9	1	255777 4937
+108	324183	2.9	1	318440 5743
+109	350225	2.9	1	343928 6297
+110	288798	2.9	1	283576 5222
+111	187779	2.9	1	184080 3699
+112	148375	2.9	1	145382 2993
+113	136218	2.9	1	133433 2785
+114	117885	2.9	1	115161 2724
+115	78420	2.9	1	76712 1708
+116	40032	2.9	1	39019 1013
+117	25534	2.9	1	24633 901
+118	12532	2.9	1	11960 572
+119	10494	2.9	1	9942 552
+120	8193	2.9	1	7836 357
+121	10270	2.9	1	9748 522
+122	8479	2.9	1	8096 383
+123	11965	2.9	1	11184 781
+124	9225	2.9	1	8753 472
+125	2231	2.9	1	1936 295
+126	736	2.9	1	490 246
+127	1370	2.9	1	1153 217
+128	795	2.9	1	477 318
+129	2280	2.9	1	1961 319
+130	931	2.9	1	322 609
+131	1316	2.9	1	929 387
+132	401	2.9	1	126 275
+133	712	2.9	1	280 432
+134	261	2.9	1	64 197
+135	245	2.9	1	86 159
+136	222	2.9	1	39 183
+137	275	2.9	1	45 230
+138	478	2.9	1	21 457
+139	196	2.9	1	20 176
+140	433	2.9	1	23 410
+141	305	2.9	1	57 248
+142	767	2.9	1	35 732
+143	173	2.9	1	5 168
+144	211	2.9	1	5 206
+145	84	2.9	1	4 80
+146	132	2.9	1	4 128
+147	325	2.9	1	12 313
+148	254	2.9	1	4 250
+149	86	2.9	1	3 83
+150	179	2.9	1	77 102
+
+RUN STATISTICS FOR INPUT FILE: /scratch/fmorandi/internal/Ali/atac_seq3/00_fastq/ATAC_lunFDf6_231210_R2.fastq.gz
+=============================================
+49025241 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files ATAC_lunFDf6_231210_R1_trimmed.fq.gz and ATAC_lunFDf6_231210_R2_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>ATAC_lunFDf6_231210_R1_trimmed.fq.gz<<	RENAMING TO:>>ATAC_lunFDf6_231210_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>ATAC_lunFDf6_231210_R2_trimmed.fq.gz<<	RENAMING TO:>>ATAC_lunFDf6_231210_R2_trimmed.fq.gz<<
+file_1: ATAC_lunFDf6_231210_R1_trimmed.fq.gz, file_2: ATAC_lunFDf6_231210_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: ATAC_lunFDf6_231210_R1_trimmed.fq.gz and ATAC_lunFDf6_231210_R2_trimmed.fq.gz <<<<<
+Writing validated paired-end read 1 reads to ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Writing validated paired-end read 2 reads to ATAC_lunFDf6_231210_R2_val_2.fq.gz
+
+Total number of sequences analysed: 49025241
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 24839 (0.05%)
+
+Deleting both intermediate output files ATAC_lunFDf6_231210_R1_trimmed.fq.gz and ATAC_lunFDf6_231210_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Fastqs trimmed succesfully: continuing
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/21691039
+Started analysis of ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 5% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 10% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 15% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 20% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 25% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 30% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 35% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 40% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 45% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 50% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 55% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 60% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 65% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 70% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 75% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 80% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 85% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 90% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Approx 95% complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Analysis complete for ATAC_lunFDf6_231210_R1_val_1.fq.gz
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/21691039
+Started analysis of ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 5% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 10% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 15% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 20% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 25% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 30% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 35% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 40% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 45% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 50% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 55% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 60% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 65% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 70% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 75% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 80% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 85% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 90% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Approx 95% complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Analysis complete for ATAC_lunFDf6_231210_R2_val_2.fq.gz
+Bowtie2  /software/bowtie2/2.3.5.1/bowtie2-align-s version 2.3.5.1
+49000402 reads; of these:
+  49000402 (100.00%) were paired; of these:
+    2288018 (4.67%) aligned concordantly 0 times
+    41587304 (84.87%) aligned concordantly exactly 1 time
+    5125080 (10.46%) aligned concordantly >1 times
+    ----
+    2288018 pairs aligned concordantly 0 times; of these:
+      8833 (0.39%) aligned discordantly 1 time
+    ----
+    2279185 pairs aligned 0 times concordantly or discordantly; of these:
+      4558370 mates make up the pairs; of these:
+        3213831 (70.50%) aligned 0 times
+        1172521 (25.72%) aligned exactly 1 time
+        172018 (3.77%) aligned >1 times
+96.72% overall alignment rate
+[bam_sort_core] merging from 40 files and 1 in-memory blocks...
+98000804 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+94786973 + 0 mapped (96.72% : N/A)
+98000804 + 0 paired in sequencing
+49000402 + 0 read1
+49000402 + 0 read2
+93424768 + 0 properly paired (95.33% : N/A)
+93461198 + 0 with itself and mate mapped
+1325775 + 0 singletons (1.35% : N/A)
+18986 + 0 with mate mapped to a different chr
+9961 + 0 with mate mapped to a different chr (mapQ>=5)
+Found 953200 mitochondrial pairs
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/21691039
+05:00:28.884 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gpfs/fs1/sfw2/picard/2.12.0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Sat Dec 30 05:00:28 EST 2023] MarkDuplicates INPUT=[./05_clean_BAMs/ATAC_lunFDf6_231210_propairs.bam] OUTPUT=./05_clean_BAMs/ATAC_lunFDf6_231210_dedup.bam METRICS_FILE=./05_clean_BAMs/ATAC_lunFDf6_231210_duplicate_metrics.txt REMOVE_DUPLICATES=true    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 TAG_DUPLICATE_SET_MEMBERS=false REMOVE_SEQUENCING_DUPLICATES=false TAGGING_POLICY=DontTag CLEAR_DT=true ASSUME_SORTED=false DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates READ_NAME_REGEX=<optimized capture of last three ':' separated fields as numeric values> OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 MAX_OPTICAL_DUPLICATE_SET_SIZE=300000 ADD_PG_TAG_TO_READS=true VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
+[Sat Dec 30 05:00:28 EST 2023] Executing as fmorandi@bhc0189 on Linux 3.10.0-1160.95.1.el7.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_111-b14; Deflater: Intel; Inflater: Intel; Picard version: 2.12.0-SNAPSHOT
+INFO	2023-12-30 05:00:28	MarkDuplicates	Start of doWork freeMemory: 1992766712; totalMemory: 2012217344; maxMemory: 28631367680
+INFO	2023-12-30 05:00:28	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2023-12-30 05:00:28	MarkDuplicates	Will retain up to 103736839 data points before spilling to disk.
+INFO	2023-12-30 05:00:36	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    7s.  Last read position: 1:39,407,228
+INFO	2023-12-30 05:00:36	MarkDuplicates	Tracking 24 as yet unmatched pairs. 24 records in RAM.
+INFO	2023-12-30 05:00:40	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    4s.  Last read position: 1:74,627,098
+INFO	2023-12-30 05:00:40	MarkDuplicates	Tracking 124 as yet unmatched pairs. 124 records in RAM.
+INFO	2023-12-30 05:00:45	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:    4s.  Last read position: 1:105,099,095
+INFO	2023-12-30 05:00:45	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:00:50	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:20s.  Time for last 1,000,000:    5s.  Last read position: 1:136,615,626
+INFO	2023-12-30 05:00:50	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:00:54	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    4s.  Last read position: 1:170,991,748
+INFO	2023-12-30 05:00:54	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:00:58	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    4s.  Last read position: 10:3,063,176
+INFO	2023-12-30 05:00:58	MarkDuplicates	Tracking 180 as yet unmatched pairs. 180 records in RAM.
+INFO	2023-12-30 05:01:03	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:34s.  Time for last 1,000,000:    4s.  Last read position: 10:41,460,998
+INFO	2023-12-30 05:01:03	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:01:06	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    3s.  Last read position: 10:74,903,351
+INFO	2023-12-30 05:01:06	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:01:11	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:42s.  Time for last 1,000,000:    4s.  Last read position: 10:85,752,617
+INFO	2023-12-30 05:01:11	MarkDuplicates	Tracking 80 as yet unmatched pairs. 80 records in RAM.
+INFO	2023-12-30 05:01:16	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    4s.  Last read position: 10:120,964,023
+INFO	2023-12-30 05:01:16	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:01:19	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    3s.  Last read position: 11:16,547,752
+INFO	2023-12-30 05:01:19	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:01:24	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    4s.  Last read position: 11:51,475,808
+INFO	2023-12-30 05:01:24	MarkDuplicates	Tracking 48 as yet unmatched pairs. 48 records in RAM.
+INFO	2023-12-30 05:01:29	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:01:00s.  Time for last 1,000,000:    5s.  Last read position: 11:68,741,373
+INFO	2023-12-30 05:01:29	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:01:33	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:01:03s.  Time for last 1,000,000:    3s.  Last read position: 11:80,091,540
+INFO	2023-12-30 05:01:33	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:01:38	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:01:09s.  Time for last 1,000,000:    5s.  Last read position: 11:97,576,380
+INFO	2023-12-30 05:01:38	MarkDuplicates	Tracking 78 as yet unmatched pairs. 78 records in RAM.
+INFO	2023-12-30 05:01:41	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:01:12s.  Time for last 1,000,000:    3s.  Last read position: 11:109,284,761
+INFO	2023-12-30 05:01:41	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:01:56	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:   14s.  Last read position: 11:120,777,197
+INFO	2023-12-30 05:01:56	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:02:00	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:01:31s.  Time for last 1,000,000:    3s.  Last read position: 12:33,199,782
+INFO	2023-12-30 05:02:00	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:02:05	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:01:36s.  Time for last 1,000,000:    5s.  Last read position: 12:76,598,807
+INFO	2023-12-30 05:02:05	MarkDuplicates	Tracking 10 as yet unmatched pairs. 10 records in RAM.
+INFO	2023-12-30 05:02:09	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:01:39s.  Time for last 1,000,000:    3s.  Last read position: 12:100,958,586
+INFO	2023-12-30 05:02:09	MarkDuplicates	Tracking 10 as yet unmatched pairs. 10 records in RAM.
+INFO	2023-12-30 05:02:15	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:01:45s.  Time for last 1,000,000:    6s.  Last read position: 13:9,161,272
+INFO	2023-12-30 05:02:15	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:02:18	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:01:49s.  Time for last 1,000,000:    3s.  Last read position: 13:42,989,743
+INFO	2023-12-30 05:02:18	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:02:21	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:01:52s.  Time for last 1,000,000:    3s.  Last read position: 13:64,582,900
+INFO	2023-12-30 05:02:21	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:02:28	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:01:59s.  Time for last 1,000,000:    6s.  Last read position: 13:107,181,029
+INFO	2023-12-30 05:02:28	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:02:31	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:02:02s.  Time for last 1,000,000:    3s.  Last read position: 14:24,245,362
+INFO	2023-12-30 05:02:31	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:02:35	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:02:06s.  Time for last 1,000,000:    3s.  Last read position: 14:54,462,493
+INFO	2023-12-30 05:02:35	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:02:42	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:02:12s.  Time for last 1,000,000:    6s.  Last read position: 14:75,405,586
+INFO	2023-12-30 05:02:42	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:02:45	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:02:16s.  Time for last 1,000,000:    3s.  Last read position: 15:6,886,785
+INFO	2023-12-30 05:02:45	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:03:03	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:02:33s.  Time for last 1,000,000:   17s.  Last read position: 15:52,592,257
+INFO	2023-12-30 05:03:03	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:03:06	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:02:37s.  Time for last 1,000,000:    3s.  Last read position: 15:77,660,716
+INFO	2023-12-30 05:03:06	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:03:09	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:02:40s.  Time for last 1,000,000:    3s.  Last read position: 15:90,145,347
+INFO	2023-12-30 05:03:09	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:03:15	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:02:46s.  Time for last 1,000,000:    6s.  Last read position: 16:4,869,500
+INFO	2023-12-30 05:03:15	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:03:19	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:02:49s.  Time for last 1,000,000:    3s.  Last read position: 16:29,632,162
+INFO	2023-12-30 05:03:19	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2023-12-30 05:03:22	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:02:53s.  Time for last 1,000,000:    3s.  Last read position: 16:57,668,595
+INFO	2023-12-30 05:03:22	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:03:28	MarkDuplicates	Read    35,000,000 records.  Elapsed time: 00:02:59s.  Time for last 1,000,000:    6s.  Last read position: 17:3,131,827
+INFO	2023-12-30 05:03:28	MarkDuplicates	Tracking 114 as yet unmatched pairs. 114 records in RAM.
+INFO	2023-12-30 05:03:32	MarkDuplicates	Read    36,000,000 records.  Elapsed time: 00:03:02s.  Time for last 1,000,000:    3s.  Last read position: 17:26,095,250
+INFO	2023-12-30 05:03:32	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2023-12-30 05:03:35	MarkDuplicates	Read    37,000,000 records.  Elapsed time: 00:03:06s.  Time for last 1,000,000:    3s.  Last read position: 17:35,497,662
+INFO	2023-12-30 05:03:35	MarkDuplicates	Tracking 10 as yet unmatched pairs. 10 records in RAM.
+INFO	2023-12-30 05:03:41	MarkDuplicates	Read    38,000,000 records.  Elapsed time: 00:03:11s.  Time for last 1,000,000:    5s.  Last read position: 17:56,818,294
+INFO	2023-12-30 05:03:41	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:03:44	MarkDuplicates	Read    39,000,000 records.  Elapsed time: 00:03:15s.  Time for last 1,000,000:    3s.  Last read position: 17:84,936,331
+INFO	2023-12-30 05:03:44	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:03:48	MarkDuplicates	Read    40,000,000 records.  Elapsed time: 00:03:18s.  Time for last 1,000,000:    3s.  Last read position: 18:31,040,540
+INFO	2023-12-30 05:03:48	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:03:54	MarkDuplicates	Read    41,000,000 records.  Elapsed time: 00:03:24s.  Time for last 1,000,000:    6s.  Last read position: 18:60,771,664
+INFO	2023-12-30 05:03:54	MarkDuplicates	Tracking 20 as yet unmatched pairs. 20 records in RAM.
+INFO	2023-12-30 05:03:57	MarkDuplicates	Read    42,000,000 records.  Elapsed time: 00:03:28s.  Time for last 1,000,000:    3s.  Last read position: 18:85,107,655
+INFO	2023-12-30 05:03:57	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:04:27	MarkDuplicates	Read    43,000,000 records.  Elapsed time: 00:03:58s.  Time for last 1,000,000:   30s.  Last read position: 19:11,791,770
+INFO	2023-12-30 05:04:27	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:04:31	MarkDuplicates	Read    44,000,000 records.  Elapsed time: 00:04:01s.  Time for last 1,000,000:    3s.  Last read position: 19:41,819,961
+INFO	2023-12-30 05:04:31	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:04:34	MarkDuplicates	Read    45,000,000 records.  Elapsed time: 00:04:05s.  Time for last 1,000,000:    3s.  Last read position: 2:4,364,335
+INFO	2023-12-30 05:04:34	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:04:39	MarkDuplicates	Read    46,000,000 records.  Elapsed time: 00:04:10s.  Time for last 1,000,000:    5s.  Last read position: 2:29,106,872
+INFO	2023-12-30 05:04:39	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:04:42	MarkDuplicates	Read    47,000,000 records.  Elapsed time: 00:04:13s.  Time for last 1,000,000:    3s.  Last read position: 2:50,174,287
+INFO	2023-12-30 05:04:42	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:04:46	MarkDuplicates	Read    48,000,000 records.  Elapsed time: 00:04:17s.  Time for last 1,000,000:    3s.  Last read position: 2:89,072,426
+INFO	2023-12-30 05:04:46	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:04:51	MarkDuplicates	Read    49,000,000 records.  Elapsed time: 00:04:22s.  Time for last 1,000,000:    5s.  Last read position: 2:102,545,066
+INFO	2023-12-30 05:04:51	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:04:54	MarkDuplicates	Read    50,000,000 records.  Elapsed time: 00:04:25s.  Time for last 1,000,000:    3s.  Last read position: 2:131,778,429
+INFO	2023-12-30 05:04:54	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:04:58	MarkDuplicates	Read    51,000,000 records.  Elapsed time: 00:04:28s.  Time for last 1,000,000:    3s.  Last read position: 2:157,309,757
+INFO	2023-12-30 05:04:58	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2023-12-30 05:05:04	MarkDuplicates	Read    52,000,000 records.  Elapsed time: 00:04:34s.  Time for last 1,000,000:    5s.  Last read position: 2:177,740,083
+INFO	2023-12-30 05:05:04	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:05:07	MarkDuplicates	Read    53,000,000 records.  Elapsed time: 00:04:38s.  Time for last 1,000,000:    3s.  Last read position: 3:39,057,539
+INFO	2023-12-30 05:05:07	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:05:10	MarkDuplicates	Read    54,000,000 records.  Elapsed time: 00:04:41s.  Time for last 1,000,000:    3s.  Last read position: 3:87,081,544
+INFO	2023-12-30 05:05:10	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:05:18	MarkDuplicates	Read    55,000,000 records.  Elapsed time: 00:04:49s.  Time for last 1,000,000:    7s.  Last read position: 3:102,927,680
+INFO	2023-12-30 05:05:18	MarkDuplicates	Tracking 94 as yet unmatched pairs. 94 records in RAM.
+INFO	2023-12-30 05:05:21	MarkDuplicates	Read    56,000,000 records.  Elapsed time: 00:04:52s.  Time for last 1,000,000:    3s.  Last read position: 3:137,627,890
+INFO	2023-12-30 05:05:21	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:05:25	MarkDuplicates	Read    57,000,000 records.  Elapsed time: 00:04:55s.  Time for last 1,000,000:    3s.  Last read position: 4:32,864,135
+INFO	2023-12-30 05:05:25	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:05:31	MarkDuplicates	Read    58,000,000 records.  Elapsed time: 00:05:02s.  Time for last 1,000,000:    6s.  Last read position: 4:61,136,964
+INFO	2023-12-30 05:05:31	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:05:35	MarkDuplicates	Read    59,000,000 records.  Elapsed time: 00:05:06s.  Time for last 1,000,000:    3s.  Last read position: 4:106,651,494
+INFO	2023-12-30 05:05:35	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2023-12-30 05:05:38	MarkDuplicates	Read    60,000,000 records.  Elapsed time: 00:05:09s.  Time for last 1,000,000:    3s.  Last read position: 4:128,889,183
+INFO	2023-12-30 05:05:38	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2023-12-30 05:05:45	MarkDuplicates	Read    61,000,000 records.  Elapsed time: 00:05:16s.  Time for last 1,000,000:    7s.  Last read position: 4:138,945,907
+INFO	2023-12-30 05:05:45	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2023-12-30 05:05:49	MarkDuplicates	Read    62,000,000 records.  Elapsed time: 00:05:19s.  Time for last 1,000,000:    3s.  Last read position: 4:154,689,305
+INFO	2023-12-30 05:05:49	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:05:52	MarkDuplicates	Read    63,000,000 records.  Elapsed time: 00:05:23s.  Time for last 1,000,000:    3s.  Last read position: 5:31,411,345
+INFO	2023-12-30 05:05:52	MarkDuplicates	Tracking 8 as yet unmatched pairs. 8 records in RAM.
+INFO	2023-12-30 05:05:59	MarkDuplicates	Read    64,000,000 records.  Elapsed time: 00:05:30s.  Time for last 1,000,000:    7s.  Last read position: 5:65,318,764
+INFO	2023-12-30 05:05:59	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:06:03	MarkDuplicates	Read    65,000,000 records.  Elapsed time: 00:05:33s.  Time for last 1,000,000:    3s.  Last read position: 5:101,013,937
+INFO	2023-12-30 05:06:03	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:06:40	MarkDuplicates	Read    66,000,000 records.  Elapsed time: 00:06:11s.  Time for last 1,000,000:   37s.  Last read position: 5:120,597,517
+INFO	2023-12-30 05:06:40	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:06:43	MarkDuplicates	Read    67,000,000 records.  Elapsed time: 00:06:14s.  Time for last 1,000,000:    3s.  Last read position: 5:136,025,391
+INFO	2023-12-30 05:06:43	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:06:47	MarkDuplicates	Read    68,000,000 records.  Elapsed time: 00:06:17s.  Time for last 1,000,000:    3s.  Last read position: 5:150,592,341
+INFO	2023-12-30 05:06:47	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:06:52	MarkDuplicates	Read    69,000,000 records.  Elapsed time: 00:06:23s.  Time for last 1,000,000:    5s.  Last read position: 6:41,011,260
+INFO	2023-12-30 05:06:52	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:06:56	MarkDuplicates	Read    70,000,000 records.  Elapsed time: 00:06:26s.  Time for last 1,000,000:    3s.  Last read position: 6:72,952,269
+INFO	2023-12-30 05:06:56	MarkDuplicates	Tracking 4 as yet unmatched pairs. 4 records in RAM.
+INFO	2023-12-30 05:06:59	MarkDuplicates	Read    71,000,000 records.  Elapsed time: 00:06:30s.  Time for last 1,000,000:    3s.  Last read position: 6:99,113,327
+INFO	2023-12-30 05:06:59	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:07:05	MarkDuplicates	Read    72,000,000 records.  Elapsed time: 00:06:36s.  Time for last 1,000,000:    5s.  Last read position: 6:125,141,592
+INFO	2023-12-30 05:07:05	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2023-12-30 05:07:08	MarkDuplicates	Read    73,000,000 records.  Elapsed time: 00:06:39s.  Time for last 1,000,000:    3s.  Last read position: 7:4,922,820
+INFO	2023-12-30 05:07:08	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:07:14	MarkDuplicates	Read    74,000,000 records.  Elapsed time: 00:06:45s.  Time for last 1,000,000:    5s.  Last read position: 7:28,335,928
+INFO	2023-12-30 05:07:14	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:07:17	MarkDuplicates	Read    75,000,000 records.  Elapsed time: 00:06:48s.  Time for last 1,000,000:    3s.  Last read position: 7:50,453,347
+INFO	2023-12-30 05:07:17	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:07:21	MarkDuplicates	Read    76,000,000 records.  Elapsed time: 00:06:51s.  Time for last 1,000,000:    3s.  Last read position: 7:83,768,478
+INFO	2023-12-30 05:07:21	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2023-12-30 05:07:26	MarkDuplicates	Read    77,000,000 records.  Elapsed time: 00:06:57s.  Time for last 1,000,000:    5s.  Last read position: 7:111,224,454
+INFO	2023-12-30 05:07:26	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:07:30	MarkDuplicates	Read    78,000,000 records.  Elapsed time: 00:07:01s.  Time for last 1,000,000:    3s.  Last read position: 7:130,249,519
+INFO	2023-12-30 05:07:30	MarkDuplicates	Tracking 22 as yet unmatched pairs. 22 records in RAM.
+INFO	2023-12-30 05:07:33	MarkDuplicates	Read    79,000,000 records.  Elapsed time: 00:07:04s.  Time for last 1,000,000:    3s.  Last read position: 8:11,300,222
+INFO	2023-12-30 05:07:33	MarkDuplicates	Tracking 14 as yet unmatched pairs. 14 records in RAM.
+INFO	2023-12-30 05:07:39	MarkDuplicates	Read    80,000,000 records.  Elapsed time: 00:07:10s.  Time for last 1,000,000:    5s.  Last read position: 8:42,632,011
+INFO	2023-12-30 05:07:39	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:07:42	MarkDuplicates	Read    81,000,000 records.  Elapsed time: 00:07:13s.  Time for last 1,000,000:    3s.  Last read position: 8:76,227,986
+INFO	2023-12-30 05:07:42	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:07:48	MarkDuplicates	Read    82,000,000 records.  Elapsed time: 00:07:19s.  Time for last 1,000,000:    5s.  Last read position: 8:103,645,299
+INFO	2023-12-30 05:07:48	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:07:51	MarkDuplicates	Read    83,000,000 records.  Elapsed time: 00:07:22s.  Time for last 1,000,000:    3s.  Last read position: 8:122,305,079
+INFO	2023-12-30 05:07:51	MarkDuplicates	Tracking 30 as yet unmatched pairs. 30 records in RAM.
+INFO	2023-12-30 05:07:55	MarkDuplicates	Read    84,000,000 records.  Elapsed time: 00:07:26s.  Time for last 1,000,000:    3s.  Last read position: 9:16,127,783
+INFO	2023-12-30 05:07:55	MarkDuplicates	Tracking 28 as yet unmatched pairs. 28 records in RAM.
+INFO	2023-12-30 05:08:00	MarkDuplicates	Read    85,000,000 records.  Elapsed time: 00:07:31s.  Time for last 1,000,000:    5s.  Last read position: 9:44,408,694
+INFO	2023-12-30 05:08:00	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:08:04	MarkDuplicates	Read    86,000,000 records.  Elapsed time: 00:07:34s.  Time for last 1,000,000:    3s.  Last read position: 9:63,552,550
+INFO	2023-12-30 05:08:04	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:08:07	MarkDuplicates	Read    87,000,000 records.  Elapsed time: 00:07:38s.  Time for last 1,000,000:    3s.  Last read position: 9:89,922,559
+INFO	2023-12-30 05:08:07	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2023-12-30 05:08:12	MarkDuplicates	Read    88,000,000 records.  Elapsed time: 00:07:43s.  Time for last 1,000,000:    5s.  Last read position: 9:111,379,608
+INFO	2023-12-30 05:08:12	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:08:15	MarkDuplicates	Read    89,000,000 records.  Elapsed time: 00:07:46s.  Time for last 1,000,000:    3s.  Last read position: MT:2,292
+INFO	2023-12-30 05:08:15	MarkDuplicates	Tracking 4010 as yet unmatched pairs. 4010 records in RAM.
+INFO	2023-12-30 05:08:19	MarkDuplicates	Read    90,000,000 records.  Elapsed time: 00:07:50s.  Time for last 1,000,000:    3s.  Last read position: MT:11,377
+INFO	2023-12-30 05:08:19	MarkDuplicates	Tracking 2868 as yet unmatched pairs. 2868 records in RAM.
+INFO	2023-12-30 05:08:26	MarkDuplicates	Read    91,000,000 records.  Elapsed time: 00:07:57s.  Time for last 1,000,000:    7s.  Last read position: X:20,298,928
+INFO	2023-12-30 05:08:26	MarkDuplicates	Tracking 2 as yet unmatched pairs. 2 records in RAM.
+INFO	2023-12-30 05:08:29	MarkDuplicates	Read    92,000,000 records.  Elapsed time: 00:08:00s.  Time for last 1,000,000:    3s.  Last read position: X:98,092,975
+INFO	2023-12-30 05:08:29	MarkDuplicates	Tracking 6 as yet unmatched pairs. 6 records in RAM.
+INFO	2023-12-30 05:08:36	MarkDuplicates	Read    93,000,000 records.  Elapsed time: 00:08:07s.  Time for last 1,000,000:    7s.  Last read position: X:169,067,723
+INFO	2023-12-30 05:08:36	MarkDuplicates	Tracking 12 as yet unmatched pairs. 12 records in RAM.
+INFO	2023-12-30 05:08:38	MarkDuplicates	Read 93424768 records. 0 pairs never matched.
+INFO	2023-12-30 05:09:28	MarkDuplicates	After buildSortedReadEndLists freeMemory: 8524582416; totalMemory: 19599982592; maxMemory: 28631367680
+INFO	2023-12-30 05:09:28	MarkDuplicates	Will retain up to 894730240 duplicate indices before spilling to disk.
+INFO	2023-12-30 05:09:29	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2023-12-30 05:09:34	OpticalDuplicateFinder	Large duplicate set. size = 1344
+INFO	2023-12-30 05:09:34	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:6,822
+INFO	2023-12-30 05:09:34	OpticalDuplicateFinder	Large duplicate set. size = 1471
+INFO	2023-12-30 05:10:40	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:01:05s.  Time for last 1,000:   65s.  Last read position: 0:14,235
+INFO	2023-12-30 05:10:40	OpticalDuplicateFinder	Large duplicate set. size = 1102
+INFO	2023-12-30 05:10:40	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:2,555
+INFO	2023-12-30 05:10:40	OpticalDuplicateFinder	Large duplicate set. size = 1229
+INFO	2023-12-30 05:10:40	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:1,551
+INFO	2023-12-30 05:10:40	OpticalDuplicateFinder	Large duplicate set. size = 1235
+INFO	2023-12-30 05:10:40	OpticalDuplicateFinder	compared         1,000 ReadEnds to others.  Elapsed time: 00:00:00s.  Time for last 1,000:    0s.  Last read position: 0:24,948
+INFO	2023-12-30 05:10:41	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2023-12-30 05:10:49	MarkDuplicates	Sorting list of duplicate records.
+INFO	2023-12-30 05:10:51	MarkDuplicates	After generateDuplicateIndexes freeMemory: 21840249952; totalMemory: 29100081152; maxMemory: 29100081152
+INFO	2023-12-30 05:10:51	MarkDuplicates	Marking 28924146 records as duplicates.
+INFO	2023-12-30 05:10:51	MarkDuplicates	Found 549727 optical duplicate clusters.
+INFO	2023-12-30 05:10:51	MarkDuplicates	Reads are assumed to be ordered by: coordinate
+INFO	2023-12-30 05:12:42	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:01:50s.  Time for last 10,000,000:  110s.  Last read position: 11:86,812,113
+INFO	2023-12-30 05:14:36	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:03:45s.  Time for last 10,000,000:  114s.  Last read position: 15:36,165,569
+INFO	2023-12-30 05:16:30	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:05:38s.  Time for last 10,000,000:  113s.  Last read position: 19:10,263,425
+INFO	2023-12-30 05:18:25	MarkDuplicates	Written    40,000,000 records.  Elapsed time: 00:07:33s.  Time for last 10,000,000:  115s.  Last read position: 4:47,407,065
+INFO	2023-12-30 05:20:19	MarkDuplicates	Written    50,000,000 records.  Elapsed time: 00:09:27s.  Time for last 10,000,000:  113s.  Last read position: 6:122,572,098
+INFO	2023-12-30 05:22:12	MarkDuplicates	Written    60,000,000 records.  Elapsed time: 00:11:21s.  Time for last 10,000,000:  113s.  Last read position: 9:65,902,595
+INFO	2023-12-30 05:23:06	MarkDuplicates	Before output close freeMemory: 29611905608; totalMemory: 29770645504; maxMemory: 29770645504
+INFO	2023-12-30 05:23:06	MarkDuplicates	After output close freeMemory: 29153666416; totalMemory: 29312417792; maxMemory: 29312417792
+[Sat Dec 30 05:23:06 EST 2023] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 22.63 minutes.
+Runtime.totalMemory()=29312417792
+Clean BAM contains 31881970 pairs
+INFO  @ Sat, 30 Dec 2023 05:42:30: 
+# Command line: callpeak -t ./06_macs2_outputs/ATAC_lunFDf6_231210.bed.gz --outdir ./06_macs2_outputs --name ATAC_lunFDf6_231210 -f BED -g hs --keep-dup all -q 0.01 --nomodel --shift -100 --extsize 200
+# ARGUMENTS LIST:
+# name = ATAC_lunFDf6_231210
+# format = BED
+# ChIP-seq file = ['./06_macs2_outputs/ATAC_lunFDf6_231210.bed.gz']
+# control file = None
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 1.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is off
+ 
+INFO  @ Sat, 30 Dec 2023 05:42:30: #1 read tag files... 
+INFO  @ Sat, 30 Dec 2023 05:42:30: #1 read treatment tags... 
+INFO  @ Sat, 30 Dec 2023 05:42:32:  1000000 
+INFO  @ Sat, 30 Dec 2023 05:42:34:  2000000 
+INFO  @ Sat, 30 Dec 2023 05:42:35:  3000000 
+INFO  @ Sat, 30 Dec 2023 05:42:37:  4000000 
+INFO  @ Sat, 30 Dec 2023 05:42:39:  5000000 
+INFO  @ Sat, 30 Dec 2023 05:42:41:  6000000 
+INFO  @ Sat, 30 Dec 2023 05:42:43:  7000000 
+INFO  @ Sat, 30 Dec 2023 05:42:45:  8000000 
+INFO  @ Sat, 30 Dec 2023 05:42:47:  9000000 
+INFO  @ Sat, 30 Dec 2023 05:42:49:  10000000 
+INFO  @ Sat, 30 Dec 2023 05:42:51:  11000000 
+INFO  @ Sat, 30 Dec 2023 05:42:53:  12000000 
+INFO  @ Sat, 30 Dec 2023 05:42:55:  13000000 
+INFO  @ Sat, 30 Dec 2023 05:42:57:  14000000 
+INFO  @ Sat, 30 Dec 2023 05:42:59:  15000000 
+INFO  @ Sat, 30 Dec 2023 05:43:01:  16000000 
+INFO  @ Sat, 30 Dec 2023 05:43:03:  17000000 
+INFO  @ Sat, 30 Dec 2023 05:43:04:  18000000 
+INFO  @ Sat, 30 Dec 2023 05:43:06:  19000000 
+INFO  @ Sat, 30 Dec 2023 05:43:08:  20000000 
+INFO  @ Sat, 30 Dec 2023 05:43:10:  21000000 
+INFO  @ Sat, 30 Dec 2023 05:43:12:  22000000 
+INFO  @ Sat, 30 Dec 2023 05:43:14:  23000000 
+INFO  @ Sat, 30 Dec 2023 05:43:16:  24000000 
+INFO  @ Sat, 30 Dec 2023 05:43:18:  25000000 
+INFO  @ Sat, 30 Dec 2023 05:43:20:  26000000 
+INFO  @ Sat, 30 Dec 2023 05:43:22:  27000000 
+INFO  @ Sat, 30 Dec 2023 05:43:24:  28000000 
+INFO  @ Sat, 30 Dec 2023 05:43:26:  29000000 
+INFO  @ Sat, 30 Dec 2023 05:43:28:  30000000 
+INFO  @ Sat, 30 Dec 2023 05:43:30:  31000000 
+INFO  @ Sat, 30 Dec 2023 05:43:31:  32000000 
+INFO  @ Sat, 30 Dec 2023 05:43:33:  33000000 
+INFO  @ Sat, 30 Dec 2023 05:43:35:  34000000 
+INFO  @ Sat, 30 Dec 2023 05:43:37:  35000000 
+INFO  @ Sat, 30 Dec 2023 05:43:39:  36000000 
+INFO  @ Sat, 30 Dec 2023 05:43:40:  37000000 
+INFO  @ Sat, 30 Dec 2023 05:43:42:  38000000 
+INFO  @ Sat, 30 Dec 2023 05:43:44:  39000000 
+INFO  @ Sat, 30 Dec 2023 05:43:46:  40000000 
+INFO  @ Sat, 30 Dec 2023 05:43:47:  41000000 
+INFO  @ Sat, 30 Dec 2023 05:43:49:  42000000 
+INFO  @ Sat, 30 Dec 2023 05:43:51:  43000000 
+INFO  @ Sat, 30 Dec 2023 05:43:53:  44000000 
+INFO  @ Sat, 30 Dec 2023 05:43:55:  45000000 
+INFO  @ Sat, 30 Dec 2023 05:43:56:  46000000 
+INFO  @ Sat, 30 Dec 2023 05:43:58:  47000000 
+INFO  @ Sat, 30 Dec 2023 05:44:00:  48000000 
+INFO  @ Sat, 30 Dec 2023 05:44:02:  49000000 
+INFO  @ Sat, 30 Dec 2023 05:44:04:  50000000 
+INFO  @ Sat, 30 Dec 2023 05:44:05:  51000000 
+INFO  @ Sat, 30 Dec 2023 05:44:07:  52000000 
+INFO  @ Sat, 30 Dec 2023 05:44:09:  53000000 
+INFO  @ Sat, 30 Dec 2023 05:44:11:  54000000 
+INFO  @ Sat, 30 Dec 2023 05:44:12:  55000000 
+INFO  @ Sat, 30 Dec 2023 05:44:14:  56000000 
+INFO  @ Sat, 30 Dec 2023 05:44:16:  57000000 
+INFO  @ Sat, 30 Dec 2023 05:44:18:  58000000 
+INFO  @ Sat, 30 Dec 2023 05:44:20:  59000000 
+INFO  @ Sat, 30 Dec 2023 05:44:21:  60000000 
+INFO  @ Sat, 30 Dec 2023 05:44:23:  61000000 
+INFO  @ Sat, 30 Dec 2023 05:44:25:  62000000 
+INFO  @ Sat, 30 Dec 2023 05:44:27:  63000000 
+INFO  @ Sat, 30 Dec 2023 05:44:29: #1 tag size is determined as 112 bps 
+INFO  @ Sat, 30 Dec 2023 05:44:29: #1 tag size = 112 
+INFO  @ Sat, 30 Dec 2023 05:44:29: #1  total tags in treatment: 63763940 
+INFO  @ Sat, 30 Dec 2023 05:44:29: #1 finished! 
+INFO  @ Sat, 30 Dec 2023 05:44:29: #2 Build Peak Model... 
+INFO  @ Sat, 30 Dec 2023 05:44:29: #2 Skipped... 
+INFO  @ Sat, 30 Dec 2023 05:44:29: #2 Sequencing ends will be shifted towards 5' by 100 bp(s) 
+INFO  @ Sat, 30 Dec 2023 05:44:29: #2 Use 200 as fragment length 
+INFO  @ Sat, 30 Dec 2023 05:44:29: #3 Call peaks... 
+INFO  @ Sat, 30 Dec 2023 05:44:29: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 30 Dec 2023 05:47:16: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 30 Dec 2023 05:48:25: #4 Write output xls file... ./06_macs2_outputs/ATAC_lunFDf6_231210_peaks.xls 
+INFO  @ Sat, 30 Dec 2023 05:48:26: #4 Write peak in narrowPeak format file... ./06_macs2_outputs/ATAC_lunFDf6_231210_peaks.narrowPeak 
+INFO  @ Sat, 30 Dec 2023 05:48:27: #4 Write summits bed file... ./06_macs2_outputs/ATAC_lunFDf6_231210_summits.bed 
+INFO  @ Sat, 30 Dec 2023 05:48:27: Done! 
+Sat Dec 30 05:48:27 EST 2023
