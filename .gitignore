@@ -4,3 +4,6 @@
 *.zip
 *.gtf
 *.idat
+# Too big for GitHub:
+./stc_atac_seq/pipeline_out/07_peaksets_and_tables/counts*
+./stc_atac_seq/pipeline_out/07_peaksets_and_tables/rtes*
