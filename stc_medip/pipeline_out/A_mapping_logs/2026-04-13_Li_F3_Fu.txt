@@ -1,0 +1,594 @@
+R1: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R1.fastq.gz
+R2: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R2.fastq.gz
+Name: Li_F3_Fu
+Genome: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Bowtie2/GRCm39
+Mon Apr 13 10:56:37 EDT 2026
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/30900658
+FastQC v0.11.8
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/30900658
+Started analysis of Li_F3_Fu_R1.fastq.gz
+Approx 5% complete for Li_F3_Fu_R1.fastq.gz
+Approx 10% complete for Li_F3_Fu_R1.fastq.gz
+Approx 15% complete for Li_F3_Fu_R1.fastq.gz
+Approx 20% complete for Li_F3_Fu_R1.fastq.gz
+Approx 25% complete for Li_F3_Fu_R1.fastq.gz
+Approx 30% complete for Li_F3_Fu_R1.fastq.gz
+Approx 35% complete for Li_F3_Fu_R1.fastq.gz
+Approx 40% complete for Li_F3_Fu_R1.fastq.gz
+Approx 45% complete for Li_F3_Fu_R1.fastq.gz
+Approx 50% complete for Li_F3_Fu_R1.fastq.gz
+Approx 55% complete for Li_F3_Fu_R1.fastq.gz
+Approx 60% complete for Li_F3_Fu_R1.fastq.gz
+Approx 65% complete for Li_F3_Fu_R1.fastq.gz
+Approx 70% complete for Li_F3_Fu_R1.fastq.gz
+Approx 75% complete for Li_F3_Fu_R1.fastq.gz
+Approx 80% complete for Li_F3_Fu_R1.fastq.gz
+Approx 85% complete for Li_F3_Fu_R1.fastq.gz
+Approx 90% complete for Li_F3_Fu_R1.fastq.gz
+Approx 95% complete for Li_F3_Fu_R1.fastq.gz
+Analysis complete for Li_F3_Fu_R1.fastq.gz
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/30900658
+Started analysis of Li_F3_Fu_R2.fastq.gz
+Approx 5% complete for Li_F3_Fu_R2.fastq.gz
+Approx 10% complete for Li_F3_Fu_R2.fastq.gz
+Approx 15% complete for Li_F3_Fu_R2.fastq.gz
+Approx 20% complete for Li_F3_Fu_R2.fastq.gz
+Approx 25% complete for Li_F3_Fu_R2.fastq.gz
+Approx 30% complete for Li_F3_Fu_R2.fastq.gz
+Approx 35% complete for Li_F3_Fu_R2.fastq.gz
+Approx 40% complete for Li_F3_Fu_R2.fastq.gz
+Approx 45% complete for Li_F3_Fu_R2.fastq.gz
+Approx 50% complete for Li_F3_Fu_R2.fastq.gz
+Approx 55% complete for Li_F3_Fu_R2.fastq.gz
+Approx 60% complete for Li_F3_Fu_R2.fastq.gz
+Approx 65% complete for Li_F3_Fu_R2.fastq.gz
+Approx 70% complete for Li_F3_Fu_R2.fastq.gz
+Approx 75% complete for Li_F3_Fu_R2.fastq.gz
+Approx 80% complete for Li_F3_Fu_R2.fastq.gz
+Approx 85% complete for Li_F3_Fu_R2.fastq.gz
+Approx 90% complete for Li_F3_Fu_R2.fastq.gz
+Approx 95% complete for Li_F3_Fu_R2.fastq.gz
+Analysis complete for Li_F3_Fu_R2.fastq.gz
+TrimGalore version:
+
+                        Quality-/Adapter-/RRBS-/Speciality-Trimming
+                                [powered by Cutadapt]
+                                  version 0.6.2
+
+                               Last update: 21 03 2019
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 2.3
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/fs2/scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/02_trimmed_fastq/
+Using user-specified basename (>>Li_F3_Fu<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R1.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Illumina	155068	AGATCGGAAGAGC	1000000	15.51
+Nextera	16	CTGTCTCTTATA	1000000	0.00
+smallRNA	2	TGGAATTCTCGG	1000000	0.00
+Using Illumina adapter for trimming (count: 155068). Second best hit was Nextera (count: 16)
+
+Writing report to '/gpfs/fs2/scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/02_trimmed_fastq/Li_F3_Fu_R1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.2
+Cutadapt version: 2.3
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.3). Setting -j 1
+Writing final adapter and quality trimmed output to Li_F3_Fu_R1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R1.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+This is cutadapt 2.3 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 2876.42 s (42 us/read; 1.44 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              69,161,034
+Reads with adapters:                35,620,591 (51.5%)
+Reads written (passing filters):    69,161,034 (100.0%)
+
+Total basepairs processed: 10,374,155,100 bp
+Quality-trimmed:              52,204,664 bp (0.5%)
+Total written (filtered):  9,887,944,230 bp (95.3%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 35620591 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 28.9%
+  C: 25.7%
+  G: 17.9%
+  T: 27.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	13896877	17290258.5	0	13896877
+2	3776254	4322564.6	0	3776254
+3	1641973	1080641.2	0	1641973
+4	742830	270160.3	0	742830
+5	571315	67540.1	0	571315
+6	477345	16885.0	0	477345
+7	477160	4221.3	0	477160
+8	491312	1055.3	0	491312
+9	478289	263.8	0	475753 2536
+10	469644	66.0	1	448743 20901
+11	466240	16.5	1	435602 30638
+12	434861	4.1	1	412146 22715
+13	416465	1.0	1	394311 22154
+14	418467	1.0	1	392602 25865
+15	413088	1.0	1	391116 21972
+16	426110	1.0	1	397900 28210
+17	444965	1.0	1	414788 30177
+18	403091	1.0	1	383877 19214
+19	363917	1.0	1	347118 16799
+20	377839	1.0	1	356418 21421
+21	342750	1.0	1	324313 18437
+22	328196	1.0	1	312232 15964
+23	319586	1.0	1	302261 17325
+24	325250	1.0	1	302908 22342
+25	312721	1.0	1	294825 17896
+26	295769	1.0	1	280713 15056
+27	308662	1.0	1	291078 17584
+28	305936	1.0	1	290524 15412
+29	312243	1.0	1	290965 21278
+30	282018	1.0	1	268480 13538
+31	254465	1.0	1	242393 12072
+32	276097	1.0	1	261966 14131
+33	206234	1.0	1	194839 11395
+34	233099	1.0	1	218924 14175
+35	206198	1.0	1	196805 9393
+36	215959	1.0	1	203561 12398
+37	213248	1.0	1	200196 13052
+38	202930	1.0	1	193334 9596
+39	203844	1.0	1	193741 10103
+40	198852	1.0	1	187592 11260
+41	182696	1.0	1	173118 9578
+42	204073	1.0	1	192886 11187
+43	136513	1.0	1	125200 11313
+44	150758	1.0	1	140895 9863
+45	245281	1.0	1	233557 11724
+46	65684	1.0	1	59413 6271
+47	143586	1.0	1	130938 12648
+48	679441	1.0	1	659787 19654
+49	186394	1.0	1	178639 7755
+50	24985	1.0	1	21209 3776
+51	158337	1.0	1	152310 6027
+52	120609	1.0	1	116619 3990
+53	18875	1.0	1	16901 1974
+54	70521	1.0	1	67744 2777
+55	97761	1.0	1	95189 2572
+56	40180	1.0	1	38636 1544
+57	17874	1.0	1	16786 1088
+58	12681	1.0	1	11546 1135
+59	31508	1.0	1	30139 1369
+60	7469	1.0	1	6618 851
+61	9873	1.0	1	8683 1190
+62	58088	1.0	1	56604 1484
+63	11493	1.0	1	10665 828
+64	12140	1.0	1	11464 676
+65	13854	1.0	1	12775 1079
+66	42757	1.0	1	41513 1244
+67	5151	1.0	1	4498 653
+68	10854	1.0	1	10138 716
+69	13205	1.0	1	12247 958
+70	16091	1.0	1	15174 917
+71	3520	1.0	1	3011 509
+72	4579	1.0	1	4126 453
+73	10771	1.0	1	10195 576
+74	15719	1.0	1	15066 653
+75	17407	1.0	1	16709 698
+76	17113	1.0	1	16421 692
+77	16436	1.0	1	15654 782
+78	16601	1.0	1	15814 787
+79	15028	1.0	1	14293 735
+80	15686	1.0	1	14900 786
+81	14808	1.0	1	14093 715
+82	13549	1.0	1	12894 655
+83	11419	1.0	1	10799 620
+84	10414	1.0	1	9785 629
+85	9157	1.0	1	8612 545
+86	8621	1.0	1	8112 509
+87	7540	1.0	1	7107 433
+88	7213	1.0	1	6710 503
+89	6538	1.0	1	6107 431
+90	6774	1.0	1	6330 444
+91	6150	1.0	1	5759 391
+92	5753	1.0	1	5302 451
+93	5108	1.0	1	4742 366
+94	4487	1.0	1	4102 385
+95	3959	1.0	1	3617 342
+96	3711	1.0	1	3371 340
+97	3227	1.0	1	2888 339
+98	3056	1.0	1	2752 304
+99	2685	1.0	1	2423 262
+100	2620	1.0	1	2356 264
+101	2467	1.0	1	2175 292
+102	2465	1.0	1	2147 318
+103	2169	1.0	1	1883 286
+104	1902	1.0	1	1638 264
+105	1635	1.0	1	1397 238
+106	1437	1.0	1	1163 274
+107	1375	1.0	1	1122 253
+108	1312	1.0	1	1076 236
+109	1163	1.0	1	953 210
+110	1110	1.0	1	902 208
+111	975	1.0	1	786 189
+112	837	1.0	1	699 138
+113	873	1.0	1	685 188
+114	869	1.0	1	666 203
+115	720	1.0	1	533 187
+116	681	1.0	1	515 166
+117	497	1.0	1	367 130
+118	514	1.0	1	383 131
+119	525	1.0	1	357 168
+120	540	1.0	1	379 161
+121	429	1.0	1	296 133
+122	421	1.0	1	262 159
+123	362	1.0	1	216 146
+124	386	1.0	1	228 158
+125	362	1.0	1	230 132
+126	404	1.0	1	276 128
+127	228	1.0	1	148 80
+128	237	1.0	1	150 87
+129	170	1.0	1	131 39
+130	169	1.0	1	120 49
+131	201	1.0	1	115 86
+132	161	1.0	1	114 47
+133	123	1.0	1	90 33
+134	108	1.0	1	55 53
+135	63	1.0	1	51 12
+136	78	1.0	1	47 31
+137	71	1.0	1	40 31
+138	44	1.0	1	24 20
+139	43	1.0	1	23 20
+140	53	1.0	1	6 47
+141	18	1.0	1	16 2
+142	17	1.0	1	0 17
+143	23	1.0	1	5 18
+144	44	1.0	1	4 40
+145	33	1.0	1	0 33
+146	34	1.0	1	1 33
+147	28	1.0	1	0 28
+148	24	1.0	1	0 24
+149	67	1.0	1	0 67
+150	1644	1.0	1	16 1628
+
+RUN STATISTICS FOR INPUT FILE: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R1.fastq.gz
+=============================================
+69161034 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/gpfs/fs2/scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/02_trimmed_fastq/Li_F3_Fu_R2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.2
+Cutadapt version: 2.3
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.3). Setting -j -j 1
+Writing final adapter and quality trimmed output to Li_F3_Fu_R2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R2.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+This is cutadapt 2.3 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R2.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 2956.51 s (43 us/read; 1.40 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              69,161,034
+Reads with adapters:                38,250,341 (55.3%)
+Reads written (passing filters):    69,161,034 (100.0%)
+
+Total basepairs processed: 10,374,155,100 bp
+Quality-trimmed:              42,130,705 bp (0.4%)
+Total written (filtered):  9,882,167,265 bp (95.3%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 38250341 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 32.2%
+  C: 23.2%
+  G: 20.2%
+  T: 24.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	15225729	17290258.5	0	15225729
+2	4490862	4322564.6	0	4490862
+3	2067176	1080641.2	0	2067176
+4	794469	270160.3	0	794469
+5	584075	67540.1	0	584075
+6	477093	16885.0	0	477093
+7	494202	4221.3	0	494202
+8	526557	1055.3	0	526557
+9	435726	263.8	0	434406 1320
+10	484884	66.0	1	460435 24449
+11	460666	16.5	1	433801 26865
+12	460588	4.1	1	433519 27069
+13	413377	1.0	1	395238 18139
+14	444903	1.0	1	416980 27923
+15	394532	1.0	1	373749 20783
+16	418509	1.0	1	398069 20440
+17	486805	1.0	1	460231 26574
+18	328330	1.0	1	313065 15265
+19	479491	1.0	1	454522 24969
+20	319395	1.0	1	303465 15930
+21	322728	1.0	1	306935 15793
+22	329249	1.0	1	313130 16119
+23	315300	1.0	1	300791 14509
+24	361389	1.0	1	339110 22279
+25	335873	1.0	1	321242 14631
+26	267292	1.0	1	254182 13110
+27	291512	1.0	1	275788 15724
+28	314179	1.0	1	300480 13699
+29	292041	1.0	1	278607 13434
+30	313062	1.0	1	298799 14263
+31	240036	1.0	1	229475 10561
+32	283263	1.0	1	270087 13176
+33	220114	1.0	1	210691 9423
+34	219738	1.0	1	209197 10541
+35	216913	1.0	1	207976 8937
+36	210756	1.0	1	201032 9724
+37	207830	1.0	1	200612 7218
+38	227554	1.0	1	218278 9276
+39	188327	1.0	1	180897 7430
+40	191572	1.0	1	183613 7959
+41	188672	1.0	1	179978 8694
+42	156776	1.0	1	151270 5506
+43	154644	1.0	1	148315 6329
+44	140190	1.0	1	135463 4727
+45	141777	1.0	1	135381 6396
+46	156363	1.0	1	149162 7201
+47	113110	1.0	1	109286 3824
+48	126357	1.0	1	121112 5245
+49	138122	1.0	1	131907 6215
+50	113385	1.0	1	109853 3532
+51	115669	1.0	1	110872 4797
+52	102665	1.0	1	98872 3793
+53	89569	1.0	1	86429 3140
+54	90491	1.0	1	86885 3606
+55	75869	1.0	1	73142 2727
+56	74889	1.0	1	71961 2928
+57	83780	1.0	1	80135 3645
+58	67860	1.0	1	64973 2887
+59	69971	1.0	1	67865 2106
+60	76375	1.0	1	73259 3116
+61	62964	1.0	1	60931 2033
+62	54764	1.0	1	53088 1676
+63	71714	1.0	1	69019 2695
+64	37645	1.0	1	36194 1451
+65	38039	1.0	1	36657 1382
+66	38468	1.0	1	37053 1415
+67	38742	1.0	1	37708 1034
+68	40977	1.0	1	39462 1515
+69	32427	1.0	1	31470 957
+70	36165	1.0	1	34947 1218
+71	34841	1.0	1	33693 1148
+72	30934	1.0	1	29896 1038
+73	37565	1.0	1	36245 1320
+74	30528	1.0	1	29423 1105
+75	34567	1.0	1	33452 1115
+76	20416	1.0	1	19734 682
+77	10232	1.0	1	9657 575
+78	11481	1.0	1	10974 507
+79	10977	1.0	1	10447 530
+80	12155	1.0	1	11624 531
+81	11989	1.0	1	11471 518
+82	11259	1.0	1	10758 501
+83	10227	1.0	1	9754 473
+84	9317	1.0	1	8854 463
+85	8622	1.0	1	8163 459
+86	7506	1.0	1	7063 443
+87	6447	1.0	1	6088 359
+88	6003	1.0	1	5636 367
+89	5966	1.0	1	5493 473
+90	6537	1.0	1	6114 423
+91	5560	1.0	1	5190 370
+92	5428	1.0	1	5064 364
+93	4941	1.0	1	4609 332
+94	3834	1.0	1	3595 239
+95	3690	1.0	1	3388 302
+96	3445	1.0	1	3133 312
+97	3031	1.0	1	2750 281
+98	3035	1.0	1	2759 276
+99	2949	1.0	1	2674 275
+100	2890	1.0	1	2617 273
+101	2445	1.0	1	2168 277
+102	2325	1.0	1	2040 285
+103	2018	1.0	1	1746 272
+104	1750	1.0	1	1521 229
+105	1595	1.0	1	1371 224
+106	1373	1.0	1	1178 195
+107	1446	1.0	1	1163 283
+108	1350	1.0	1	1086 264
+109	1159	1.0	1	971 188
+110	1128	1.0	1	877 251
+111	1022	1.0	1	830 192
+112	899	1.0	1	693 206
+113	889	1.0	1	707 182
+114	890	1.0	1	693 197
+115	801	1.0	1	609 192
+116	754	1.0	1	564 190
+117	564	1.0	1	416 148
+118	568	1.0	1	416 152
+119	604	1.0	1	410 194
+120	632	1.0	1	427 205
+121	500	1.0	1	328 172
+122	436	1.0	1	294 142
+123	396	1.0	1	248 148
+124	406	1.0	1	253 153
+125	430	1.0	1	268 162
+126	471	1.0	1	315 156
+127	271	1.0	1	195 76
+128	290	1.0	1	190 100
+129	197	1.0	1	143 54
+130	178	1.0	1	134 44
+131	163	1.0	1	116 47
+132	162	1.0	1	109 53
+133	170	1.0	1	83 87
+134	134	1.0	1	54 80
+135	110	1.0	1	47 63
+136	91	1.0	1	45 46
+137	98	1.0	1	38 60
+138	58	1.0	1	29 29
+139	64	1.0	1	14 50
+140	37	1.0	1	6 31
+141	76	1.0	1	17 59
+142	22	1.0	1	1 21
+143	17	1.0	1	5 12
+144	34	1.0	1	3 31
+145	36	1.0	1	0 36
+146	11	1.0	1	1 10
+147	14	1.0	1	0 14
+148	45	1.0	1	9 36
+149	23	1.0	1	0 23
+150	281	1.0	1	17 264
+
+RUN STATISTICS FOR INPUT FILE: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_F3_Fu_R2.fastq.gz
+=============================================
+69161034 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files Li_F3_Fu_R1_trimmed.fq.gz and Li_F3_Fu_R2_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>Li_F3_Fu_R1_trimmed.fq.gz<<	RENAMING TO:>>Li_F3_Fu_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>Li_F3_Fu_R2_trimmed.fq.gz<<	RENAMING TO:>>Li_F3_Fu_R2_trimmed.fq.gz<<
+file_1: Li_F3_Fu_R1_trimmed.fq.gz, file_2: Li_F3_Fu_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: Li_F3_Fu_R1_trimmed.fq.gz and Li_F3_Fu_R2_trimmed.fq.gz <<<<<
+Writing validated paired-end read 1 reads to Li_F3_Fu_R1_val_1.fq.gz
+Writing validated paired-end read 2 reads to Li_F3_Fu_R2_val_2.fq.gz
+
+Total number of sequences analysed: 69161034
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 18437 (0.03%)
+
+Deleting both intermediate output files Li_F3_Fu_R1_trimmed.fq.gz and Li_F3_Fu_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Fastqs trimmed succesfully: continuing
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/30900658
+Started analysis of Li_F3_Fu_R1_val_1.fq.gz
+Approx 5% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 10% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 15% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 20% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 25% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 30% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 35% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 40% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 45% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 50% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 55% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 60% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 65% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 70% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 75% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 80% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 85% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 90% complete for Li_F3_Fu_R1_val_1.fq.gz
+Approx 95% complete for Li_F3_Fu_R1_val_1.fq.gz
+Analysis complete for Li_F3_Fu_R1_val_1.fq.gz
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/30900658
+Started analysis of Li_F3_Fu_R2_val_2.fq.gz
+Approx 5% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 10% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 15% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 20% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 25% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 30% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 35% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 40% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 45% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 50% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 55% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 60% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 65% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 70% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 75% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 80% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 85% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 90% complete for Li_F3_Fu_R2_val_2.fq.gz
+Approx 95% complete for Li_F3_Fu_R2_val_2.fq.gz
+Analysis complete for Li_F3_Fu_R2_val_2.fq.gz
+Bowtie2  /software/bowtie2/2.3.5.1/bowtie2-align-s version 2.3.5.1
+69142597 reads; of these:
+  69142597 (100.00%) were paired; of these:
+    2242119 (3.24%) aligned concordantly 0 times
+    51171463 (74.01%) aligned concordantly exactly 1 time
+    15729015 (22.75%) aligned concordantly >1 times
+    ----
+    2242119 pairs aligned concordantly 0 times; of these:
+      6776 (0.30%) aligned discordantly 1 time
+    ----
+    2235343 pairs aligned 0 times concordantly or discordantly; of these:
+      4470686 mates make up the pairs; of these:
+        2791462 (62.44%) aligned 0 times
+        1218123 (27.25%) aligned exactly 1 time
+        461101 (10.31%) aligned >1 times
+97.98% overall alignment rate
+[bam_sort_core] merging from 2 files and 1 in-memory blocks...
+Tue Apr 14 12:53:35 EDT 2026

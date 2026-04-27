@@ -1,0 +1,53 @@
+File: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_F2_C.bam
+Name: Li_F2_C.bam
+Genes GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf
+Repeats GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf
+Strandedness: no
+Thu Apr 16 13:36:45 EDT 2026
+INFO  @ Thu, 16 Apr 2026 13:36:47: 
+# ARGUMENTS LIST:
+# name = ./05_counts/Li_F2_C.bam
+# BAM file = /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_F2_C.bam
+# GTF file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf 
+# TE file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf 
+# multi-mapper mode = multi 
+# stranded = no 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Thu, 16 Apr 2026 13:36:47: Processing GTF files ... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:36:47: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+INFO  @ Thu, 16 Apr 2026 13:46:05: Done building gene index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:46:37: Building TE index ....... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:50:24: Done building TE index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:50:24: 
+Reading sample file ... 
+ 
+[E::idx_find_and_load] Could not retrieve index file for '.1776361824.1449819.bam'
+11000000 alignments  processed. 
+uniq te counts = 10813119 
+.......start iterative optimization .......... 
+TE counts total 10813119.000000145 
+Gene counts total 3254711.0000000163 
+
+In library /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_F2_C.bam: 
+Total annotated reads = 14067830 
+Total non-uniquely mapped reads = 0 
+Total unannotated reads = 8140832 
+
+INFO  @ Thu, 16 Apr 2026 14:31:09: Finished processing sample file 
+Thu Apr 16 14:31:28 EDT 2026

@@ -1,0 +1,55 @@
+File: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Lu_F2_Fu.bam
+Name: Lu_F2_Fu.bam
+Genes GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf
+Repeats GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf
+Strandedness: no
+Thu Apr 16 13:01:48 EDT 2026
+INFO  @ Thu, 16 Apr 2026 13:01:49: 
+# ARGUMENTS LIST:
+# name = ./05_counts/Lu_F2_Fu.bam
+# BAM file = /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Lu_F2_Fu.bam
+# GTF file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf 
+# TE file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf 
+# multi-mapper mode = multi 
+# stranded = no 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Thu, 16 Apr 2026 13:01:49: Processing GTF files ... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:01:49: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+INFO  @ Thu, 16 Apr 2026 13:09:19: Done building gene index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:09:40: Building TE index ....... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:12:42: Done building TE index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:12:42: 
+Reading sample file ... 
+ 
+[E::idx_find_and_load] Could not retrieve index file for '.1776359562.580222.bam'
+35000000 alignments  processed. 
+46000000 alignments  processed. 
+114000000 alignments  processed. 
+uniq te counts = 34046492 
+.......start iterative optimization .......... 
+TE counts total 34046492.99999391 
+Gene counts total 16168064.000000043 
+
+In library /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Lu_F2_Fu.bam: 
+Total annotated reads = 50214556 
+Total non-uniquely mapped reads = 0 
+Total unannotated reads = 20345371 
+
+INFO  @ Thu, 16 Apr 2026 14:52:51: Finished processing sample file 
+Thu Apr 16 14:53:09 EDT 2026

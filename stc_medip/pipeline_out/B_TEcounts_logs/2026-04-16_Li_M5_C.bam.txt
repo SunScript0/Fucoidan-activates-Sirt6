@@ -1,0 +1,55 @@
+File: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_M5_C.bam
+Name: Li_M5_C.bam
+Genes GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf
+Repeats GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf
+Strandedness: no
+Thu Apr 16 12:25:41 EDT 2026
+INFO  @ Thu, 16 Apr 2026 12:25:42: 
+# ARGUMENTS LIST:
+# name = ./05_counts/Li_M5_C.bam
+# BAM file = /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_M5_C.bam
+# GTF file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf 
+# TE file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf 
+# multi-mapper mode = multi 
+# stranded = no 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Thu, 16 Apr 2026 12:25:42: Processing GTF files ... 
+ 
+INFO  @ Thu, 16 Apr 2026 12:25:42: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+INFO  @ Thu, 16 Apr 2026 12:35:28: Done building gene index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 12:35:49: Building TE index ....... 
+ 
+INFO  @ Thu, 16 Apr 2026 12:40:23: Done building TE index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 12:40:23: 
+Reading sample file ... 
+ 
+[E::idx_find_and_load] Could not retrieve index file for '.1776357623.1646082.bam'
+68000000 alignments  processed. 
+108000000 alignments  processed. 
+146000000 alignments  processed. 
+uniq te counts = 30657205 
+.......start iterative optimization .......... 
+TE counts total 30657205.999991074 
+Gene counts total 32866080.99999991 
+
+In library /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_M5_C.bam: 
+Total annotated reads = 63523286 
+Total non-uniquely mapped reads = 0 
+Total unannotated reads = 16156210 
+
+INFO  @ Thu, 16 Apr 2026 15:26:34: Finished processing sample file 
+Thu Apr 16 15:26:56 EDT 2026

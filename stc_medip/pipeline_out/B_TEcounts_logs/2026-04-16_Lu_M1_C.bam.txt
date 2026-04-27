@@ -1,0 +1,54 @@
+File: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Lu_M1_C.bam
+Name: Lu_M1_C.bam
+Genes GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf
+Repeats GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf
+Strandedness: no
+Thu Apr 16 10:58:42 EDT 2026
+INFO  @ Thu, 16 Apr 2026 10:58:46: 
+# ARGUMENTS LIST:
+# name = ./05_counts/Lu_M1_C.bam
+# BAM file = /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Lu_M1_C.bam
+# GTF file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf 
+# TE file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf 
+# multi-mapper mode = multi 
+# stranded = no 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Thu, 16 Apr 2026 10:58:46: Processing GTF files ... 
+ 
+INFO  @ Thu, 16 Apr 2026 10:58:46: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+INFO  @ Thu, 16 Apr 2026 11:08:00: Done building gene index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 11:08:22: Building TE index ....... 
+ 
+INFO  @ Thu, 16 Apr 2026 11:12:07: Done building TE index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 11:12:07: 
+Reading sample file ... 
+ 
+[E::idx_find_and_load] Could not retrieve index file for '.1776352327.4815164.bam'
+28000000 alignments  processed. 
+102000000 alignments  processed. 
+uniq te counts = 36405886 
+.......start iterative optimization .......... 
+TE counts total 36405886.99999775 
+Gene counts total 32233340.99999969 
+
+In library /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Lu_M1_C.bam: 
+Total annotated reads = 68639227 
+Total non-uniquely mapped reads = 0 
+Total unannotated reads = 19252697 
+
+INFO  @ Thu, 16 Apr 2026 13:53:06: Finished processing sample file 
+Thu Apr 16 13:53:29 EDT 2026

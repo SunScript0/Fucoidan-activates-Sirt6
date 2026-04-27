@@ -1,0 +1,52 @@
+File: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_F2_Fu.bam
+Name: Li_F2_Fu.bam
+Genes GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf
+Repeats GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf
+Strandedness: no
+Thu Apr 16 12:03:37 EDT 2026
+INFO  @ Thu, 16 Apr 2026 12:03:38: 
+# ARGUMENTS LIST:
+# name = ./05_counts/Li_F2_Fu.bam
+# BAM file = /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_F2_Fu.bam
+# GTF file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf 
+# TE file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf 
+# multi-mapper mode = multi 
+# stranded = no 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Thu, 16 Apr 2026 12:03:38: Processing GTF files ... 
+ 
+INFO  @ Thu, 16 Apr 2026 12:03:38: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+INFO  @ Thu, 16 Apr 2026 12:12:10: Done building gene index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 12:12:30: Building TE index ....... 
+ 
+INFO  @ Thu, 16 Apr 2026 12:15:54: Done building TE index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 12:15:54: 
+Reading sample file ... 
+ 
+[E::idx_find_and_load] Could not retrieve index file for '.1776356154.2065547.bam'
+uniq te counts = 15190379 
+.......start iterative optimization .......... 
+TE counts total 15190379.000000462 
+Gene counts total 4059639.0000000005 
+
+In library /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_F2_Fu.bam: 
+Total annotated reads = 19250018 
+Total non-uniquely mapped reads = 0 
+Total unannotated reads = 10688383 
+
+INFO  @ Thu, 16 Apr 2026 13:07:48: Finished processing sample file 
+Thu Apr 16 13:08:09 EDT 2026

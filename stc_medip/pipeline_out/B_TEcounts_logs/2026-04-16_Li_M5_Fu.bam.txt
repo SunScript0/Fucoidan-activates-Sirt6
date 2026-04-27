@@ -1,0 +1,53 @@
+File: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_M5_Fu.bam
+Name: Li_M5_Fu.bam
+Genes GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf
+Repeats GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf
+Strandedness: no
+Thu Apr 16 12:50:40 EDT 2026
+INFO  @ Thu, 16 Apr 2026 12:50:40: 
+# ARGUMENTS LIST:
+# name = ./05_counts/Li_M5_Fu.bam
+# BAM file = /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_M5_Fu.bam
+# GTF file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf 
+# TE file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf 
+# multi-mapper mode = multi 
+# stranded = no 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Thu, 16 Apr 2026 12:50:40: Processing GTF files ... 
+ 
+INFO  @ Thu, 16 Apr 2026 12:50:40: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+INFO  @ Thu, 16 Apr 2026 13:00:34: Done building gene index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:00:53: Building TE index ....... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:04:50: Done building TE index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 13:04:50: 
+Reading sample file ... 
+ 
+[E::idx_find_and_load] Could not retrieve index file for '.1776359090.860554.bam'
+16000000 alignments  processed. 
+uniq te counts = 23780329 
+.......start iterative optimization .......... 
+TE counts total 23780329.999998424 
+Gene counts total 31706168.99999988 
+
+In library /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Li_M5_Fu.bam: 
+Total annotated reads = 55486498 
+Total non-uniquely mapped reads = 0 
+Total unannotated reads = 10512725 
+
+INFO  @ Thu, 16 Apr 2026 15:07:30: Finished processing sample file 
+Thu Apr 16 15:07:55 EDT 2026

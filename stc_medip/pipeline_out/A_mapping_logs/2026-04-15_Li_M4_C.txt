@@ -1,0 +1,23 @@
+R1: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_M4_C_R1.fastq.gz
+R2: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/00_fastq_b1/Li_M4_C_R2.fastq.gz
+Name: Li_M4_C
+Genome: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Bowtie2/GRCm39
+Wed Apr 15 11:36:37 EDT 2026
+Bowtie2  /software/bowtie2/2.3.5.1/bowtie2-align-s version 2.3.5.1
+87587570 reads; of these:
+  87587570 (100.00%) were paired; of these:
+    2942262 (3.36%) aligned concordantly 0 times
+    41248467 (47.09%) aligned concordantly exactly 1 time
+    43396841 (49.55%) aligned concordantly >1 times
+    ----
+    2942262 pairs aligned concordantly 0 times; of these:
+      13674 (0.46%) aligned discordantly 1 time
+    ----
+    2928588 pairs aligned 0 times concordantly or discordantly; of these:
+      5857176 mates make up the pairs; of these:
+        3766882 (64.31%) aligned 0 times
+        1018009 (17.38%) aligned exactly 1 time
+        1072285 (18.31%) aligned >1 times
+97.85% overall alignment rate
+[bam_sort_core] merging from 22 files and 1 in-memory blocks...
+Wed Apr 15 21:38:20 EDT 2026

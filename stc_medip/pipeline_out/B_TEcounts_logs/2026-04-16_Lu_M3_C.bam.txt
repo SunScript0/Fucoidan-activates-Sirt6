@@ -1,0 +1,56 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=35775] to memory cg '(null)'
+File: /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Lu_M3_C.bam
+Name: Lu_M3_C.bam
+Genes GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf
+Repeats GTF: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf
+Strandedness: no
+Thu Apr 16 09:42:50 EDT 2026
+INFO  @ Thu, 16 Apr 2026 09:42:51: 
+# ARGUMENTS LIST:
+# name = ./05_counts/Lu_M3_C.bam
+# BAM file = /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Lu_M3_C.bam
+# GTF file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Mus_musculus.GRCm39.108.gtf 
+# TE file = /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/GRCm39_Ensembl_rmsk_TE.gtf 
+# multi-mapper mode = multi 
+# stranded = no 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Thu, 16 Apr 2026 09:42:51: Processing GTF files ... 
+ 
+INFO  @ Thu, 16 Apr 2026 09:42:51: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+INFO  @ Thu, 16 Apr 2026 09:51:44: Done building gene index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 09:52:03: Building TE index ....... 
+ 
+INFO  @ Thu, 16 Apr 2026 09:55:44: Done building TE index ...... 
+ 
+INFO  @ Thu, 16 Apr 2026 09:55:44: 
+Reading sample file ... 
+ 
+[E::idx_find_and_load] Could not retrieve index file for '.1776347744.5167503.bam'
+70000000 alignments  processed. 
+147000000 alignments  processed. 
+155000000 alignments  processed. 
+uniq te counts = 43143928 
+.......start iterative optimization .......... 
+TE counts total 43143928.00000297 
+Gene counts total 39935022.000000186 
+
+In library /scratch/fmorandi/internal/Ali/github/stc_medip/pipeline_out/04_mapped/Lu_M3_C.bam: 
+Total annotated reads = 83078950 
+Total non-uniquely mapped reads = 0 
+Total unannotated reads = 20553998 
+
+INFO  @ Thu, 16 Apr 2026 12:35:15: Finished processing sample file 
+Thu Apr 16 12:35:33 EDT 2026
